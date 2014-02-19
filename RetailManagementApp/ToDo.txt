@@ -1,0 +1,36 @@
+UNDO UNDO UNDO
+
+Vendor Management
+
+    add vendor
+        name, addresses, ?
+        contact - name, phone, address
+
+        commands: CreateVendorCommand, CreateVendorWithContactCommand,
+        Events: VendorCreatedEvent (will need a Query Watcher), ContactCreatedEvent
+
+        UI
+
+        Selenium Test
+
+    list providers
+
+    modify provider - ChangeVendorNameCmd, ChangeVendorAddress [VendorAddedNewAddressCommand, VendorMovedCommand],
+        VendorAquiredByExistingVendor, VendorAquiredByNewVendor (new to us)
+
+    changeContactName, changeContactPhone, changeContactAddress
+
+    inactivate provider
+
+
+Item Maintenance
+
+    data:
+        cost to aquire
+        provider
+
+    add item
+        need to determine required vs. non required info
+        new item wizard?
+
+    modify item
