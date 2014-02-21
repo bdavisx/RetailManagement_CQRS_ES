@@ -9,4 +9,8 @@ public class CreateVendorCommand {
     @TargetAggregateIdentifier
     @NotNull
     private final UUID vendorId;
+
+    public CreateVendorCommand( final UUID vendorId ) {
+        this.vendorId = vendorId;
+    }
 }

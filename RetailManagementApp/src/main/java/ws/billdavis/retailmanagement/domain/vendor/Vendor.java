@@ -19,13 +19,13 @@ public class Vendor extends AbstractAnnotatedAggregateRoot {
     @CommandHandler
     public Vendor( CreateVendorCommand command ) {
 
-        final CustomerCreatedEvent event =
-            new CustomerCreatedEvent( command.getCustomerId(), command.getCustomerName() );
-        event.setCustomerAddress( command.getCustomerAddress() );
-        event.setDoesCustomerRecycle( command.getDoesCustomerRecycle() );
-        event.setShouldCansBeTakenIn( command.getShouldCansBeTakenIn() );
-        event.setShouldCansBeTakenOut( command.getShouldCansBeTakenOut() );
-        apply( event );
+//        final CustomerCreatedEvent event =
+//            new CustomerCreatedEvent( command.getCustomerId(), command.getCustomerName() );
+//        event.setCustomerAddress( command.getCustomerAddress() );
+//        event.setDoesCustomerRecycle( command.getDoesCustomerRecycle() );
+//        event.setShouldCansBeTakenIn( command.getShouldCansBeTakenIn() );
+//        event.setShouldCansBeTakenOut( command.getShouldCansBeTakenOut() );
+//        apply( event );
     }
 
 
