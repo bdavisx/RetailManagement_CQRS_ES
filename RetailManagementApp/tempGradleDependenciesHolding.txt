@@ -10,6 +10,7 @@
     compile group: 'org.aspectj', name: 'aspectjrt', version:'1.7.4'
 
 
+
     // jpa
     compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: hibernateVersion
     compile group: 'org.hibernate', name: 'hibernate-validator', version: hibernateVersion
