@@ -7,19 +7,25 @@ import javax.inject.Inject
 import javax.persistence.EntityManager
 import javax.persistence.PersistenceContext
 import javax.persistence.PersistenceException
+import javax.persistence.EntityManagerFactory
 
-public open class AccountRepository() {
-    private var entityManager: EntityManager = null
-    private var passwordEncoder: PasswordEncoder = null
-    public open fun save(account: Account): Account {
-        account.setPassword(passwordEncoder.encode(account.getPassword()))
-        entityManager.persist(account)
+public class AccountRepository() {
+    Inject private var entityManagerFactory:EntityManagerFactory? = null
+    Inject private var passwordEncoder: PasswordEncoder? = null
+
+    private val FindByEmail : String = "Account.findByEmail"
+
+    public fun save(account: Account): Account {
+        account.password = passwordEncoder?.encode(account.password) as String
+        entityManagerFactory!!.createEntityManager()!!.persist(account)
         return account
     }
-    public open fun findByEmail(email: String): Account {
-        try
-        {
-            return entityManager.createNamedQuery(Account.FIND_BY_EMAIL, javaClass<Account>()).setParameter("email", email).getSingleResult()
+
+    // screw this, switch to cqrs style
+    public fun findByEmail(email: String): Account {
+        try {
+            return entityManager.createNamedQuery( FindByEmail,
+                    javaClass<Account>()).setParameter("email", email).getSingleResult()
         }
         catch (e: PersistenceException) {
             return null
