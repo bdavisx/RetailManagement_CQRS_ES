@@ -56,6 +56,9 @@ dependencies {
     compile group: 'org.axonframework', name: 'axon-mongo', version: axonVersion
     compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version:'1.9.9'
 
+    // address stuff
+    compile group: 'com.neovisionaries', name: 'nv-i18n', version: '1.11'
+
     testCompile group: 'junit', name: 'junit-dep', version:'4.11'
     testCompile group: 'org.axonframework', name: 'axon-test', version: axonVersion
     testCompile group: 'org.easytesting', name: 'fest-assert', version:'1.4'

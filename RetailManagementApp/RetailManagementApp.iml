@@ -20,6 +20,10 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -119,6 +123,7 @@
     <orderEntry type="library" exported="" name="Gradle: thymeleaf-spring4-2.1.2.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: ognl-3.0.6" level="project" />
     <orderEntry type="library" exported="" name="Gradle: thymeleaf-2.1.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: nv-i18n-1.11" level="project" />
   </component>
 </module>
 

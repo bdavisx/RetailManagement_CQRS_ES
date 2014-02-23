@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<h1>Address Stories</h1>
+
+<p>Initially, we want to do the vendor stories. This means handling the addresses for vendors, so we need to work out
+    general requirements and validation for addresses. In general, we don't want to force validation on our customers,
+    the addresses are too varied and it will just cause problems. We do want to be able to give our customers pluggable
+    validation ability if they request it though.</p>
+
+<p>Initially we want to support the G20 countries, since they have the most money. So this means we need to support
+    their addresses, and if there are vendors that are from countries that supply the G20 but aren't part of it, then we
+    should be able to support those too. This might open things up too much, but for now, we'll stick with G20.</p>
+
+<p>We're only going to worry about 3 of the countries for now, which will hopefully give us enough variety that we can
+    handle changes in the future. We will use the following countries (with links to their address information):
+<ul>
+    <li>United States - <a href="http://www.upu.int/fileadmin/documentsFiles/activities/addressingUnit/usaEn.pdf">http://www.upu.int/fileadmin/documentsFiles/activities/addressingUnit/usaEn.pdf</a>
+    </li>
+    <li>China - <a href="http://www.upu.int/fileadmin/documentsFiles/activities/addressingUnit/chnEn.pdf">http://www.upu.int/fileadmin/documentsFiles/activities/addressingUnit/chnEn.pdf</a>
+    </li>
+    <li>Germany - <a href="http://www.upu.int/fileadmin/documentsFiles/activities/addressingUnit/deuEn.pdf">http://www.upu.int/fileadmin/documentsFiles/activities/addressingUnit/deuEn.pdf</a>
+    </li>
+</ul>
+Since we want to have pluggable validation, we'll develop the validation for these three countries - but have it turned
+off by default. The validation is only going to be based on the documents linked above for the most part. We will assume
+that we can validate any part of an address in a pluggable fashion, even if we don't based on the 3 countries listed
+above.</p>
+
+<p>If we validate the address commands we create and optionally any input on the users end, then we don't need to
+    actually validate the domain objects and events - this is how you should handle any validation when working with
+    Axon. While our domain objects are encapsulate Strings, the commands do not, so the validators will need to handle
+    Strings.</p>
+
+<p>Below is an initial cut at a CreateAddressCommand. We can't really use any Bean Validation / Hibernate Validation
+    annotations because we don't have any hard and fast validations, as noted above. We also can't use the XML
+    configuration from Hibernate Validator because it only allows a class to be configured once for validation - so we
+    couldn't have one validation for the US and one for China. We also want to be able to use the same validation on the
+    front end if at all possible.</p>
+
+<pre>
+public class CreateAddressCommand {
+    private String addressLines;
+    private String locality;
+    private String region;
+    private String postalCode;
+    private String countryCode;
+
+    public CreateAddressCommand() {}
+
+    public String getAddressLines() { return addressLines; }
+    public void setAddressLines( final String addressLines ) { this.addressLines = addressLines; }
+    public String getLocality() { return locality; }
+    public void setLocality( final String locality ) { this.locality = locality; }
+    public String getRegion() { return region; }
+    public void setRegion( final String region ) { this.region = region; }
+    public String getPostalCode() { return postalCode; }
+    public void setPostalCode( final String postalCode ) { this.postalCode = postalCode; }
+    public String getCountryCode() { return countryCode; }
+    public void setCountryCode( final String countryCode ) { this.countryCode = countryCode; }
+}
+</pre>
+
+<p>If we want to be able to validate different objects with the same validation, we generally are going to want to have
+    an Interface that our validator can use. So we will go ahead and extract an interface off the CreateAddressCommand.
+    Then we can start to build a our validators and see what kind of commonalities they have.</p>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-48307574-1');ga('send','pageview');
+</script>
+</body>
+</html>

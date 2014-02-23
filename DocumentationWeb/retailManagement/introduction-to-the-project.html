@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<h1>Introduction to the Project – CQRS with Event Sourcing – Retail Management Application</h1>
+
+<p>We're going to work on an application to study the <a href="http://www.axonframework.org/">Axon framework</a> along
+    with <a href="http://goo.gl/ddX7vL">CQRS</a> and <a href="http://goo.gl/ADfs2F">Event Sourcing</a>. I'm going to
+    create pieces of a a retail management application to explore CQRS. There may be parts of retail that would work
+    better as simple CRUD. If we find that, then we will see how the two can be mixed together safely (it they can be).
+    I'm not an expert with the Axon framework, I would consider myself intermediate. I could make some mistakes along
+    the way, but it will be a good learning experience in how to fix the mistakes. Make sure you understand what I said
+    above :), I don't consider myself to be at a point where I should be teaching about Axon, but if you follow along,
+    you can learn with me - I do have a lot of experience in Java and Application development in general. </p>
+
+<p>You should read the <a href="http://www.axonframework.org/axon-2-quickstart-guide/">Axon quick start guide</a> before
+    going any further, if you haven't already. <a href="http://www.axonframework.org/axon-2-quickstart-guide/">http://www.axonframework.org/axon-2-quickstart-guide/</a>.
+</p>
+
+<p>I don't really know retail management, so I'm going to go from feature lists from other applications, open source
+    or otherwise. But retail is an area we all have experience with from real life. I did work in a convenience
+    store and warehouses when I was going through college. I'm mentioning this because if you have some real retail
+    application development experience, I might make some kind of assumption that's completely wrong, but at least
+    you'll know why. I'm not pretending to know retail in-depth. I'm always open to suggestions for something that could
+    be done better. While I'm not aiming for a "real" retail management application, I do want the parts that I create
+    to be as realistic as possible. </p>
+
+<p>What I do create will be open source and hopefully a learning experience for anyone who finds this blog. I'm going to
+    be developing with <a href="http://www.jetbrains.com/idea/">IntelliJ IDEA</a> for writing the code and <a
+        href="http://www.gradle.org/">Gradle </a>for the builds. I'll be using <a href="http://tomcat.apache.org/">Tomcat </a>for
+    the web container, if it appears that a full blown application server is needed, we'll switch over to <a
+        href="https://www.jboss.org/overview/">JBoss</a>. I'm not an expert in Gradle, I've done a lot more in Maven,
+    but I'm using this project to catch up on some areas that I feel I'm lacking in. </p>
+
+<p>For the UI parts I'll be using <a
+    href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html">Spring MVC</a> with <a
+    href="http://www.thymeleaf.org/">Thymeleaf</a>, I might throw in some <a href="http://angularjs.org/">AngularJS </a>as
+    well if it seems like a single page application might be a better fit than request/response. Even with that, I'll
+    still be using Spring MVC to create the REST for Angular. Some pieces of retail management UI need to be in a kiosk
+    mode. If you're doing point-of-sale stuff, it's not going to work as a regular web application. I know you can do a
+    lot with HTML5, but a real point-of-sale system has cash registers and such. You're going to need to be able to
+    interface with the cash drawer, bar code scanners and possibly other pieces of hardware. So we might be looking at
+    some kind of GUI - since we're using Java (or at least JVM based languages), this means JavaFX, Swing or SWT. There
+    are other ways of creating a GUI in Java, but those are the top frameworks. Since we're really wanting to learn and
+    build the CQRS part of the application, we may not need to worry about the GUI. Our design would likely have a GUI
+    communicating with REST to a back end, so we may just ignore the front end as much as possible. </p>
+
+<p>For the data side, <a href="http://www.mongodb.org/">Mongo</a> for the event sourcing and <a
+    href="http://www.postgresql.org/">PostgreSQL</a> for the query side. The reason I'm using separate databases is that
+    in a lot of enterprises, you're going to need to be able to end up with data in a relational database. </p>
+
+<p>So that's the basic plan. Like any project, it could change, so we'll see where it goes.</p>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-48307574-1');ga('send','pageview');
+</script>
+</body>
+</html>

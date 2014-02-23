@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<h1>Starting the Project</h1>
+
+<p>Going to start out with a single module (project) containing both the front and back ends. While this will likely
+    change, I want to keep it simple to start with.</p>
+
+<p>One "requirement" I forgot to mention in the first blog entry: If you're actually going to build an application like
+    this, you would probably build it as a Software as a Service application. So I'm going to refactor to include this
+    requirement, but I've already started working on the Vendor maintenance part.</p>
+
+<p>So how I envision this basically is that initially working the need to create vendors so when I was needed a lot of
+    other stuff but initially were in a creative vendor and while I do want try practice doing test driven development
+    as much as possible I need to basically put some code down to start with two basically build out the vendor
+    structure of this may not exactly be land up with and I'm actually writing any code for the most part right now I'm
+    just actually kind of figuring out exactly what a vendor would be made of so one thing at this point outside the ID
+    obviously is that Renita vendor name and working to need an address what I what I call a main address for the vendor
+    they might have many addresses abandoned warehouses in such and will and will get to that in the future and they
+    will also have a main phone number so we need to model out on music term model loosely we need to model out the
+    address and phone number so you might initially take a pass at having everything is strings and the address but you
+    might want to go take a look at the object calisthenics document so at a link to that where it talks about basically
+    everything being an object and not using stringent primitives and we also might want to take a look at I think it is
+    primitive and the know it's actually called primitive Obsession where basically you're using primitives and places
+    where you should really be using objects now creating an object for each of the types in the address so we address
+    lines a locality the region postal code in the country that might seem like overkill but I'd don't think it will be
+    in terms of validation and things like that in the future I'm especially since we want this to be international
+    application think word in the we are going to need pluggable validation on the address stuff this should probably go
+    before a lot of the previous tell them that we are facing the address class itself on the stack overflow answer
+    that's linked in the address class Java.also include a link to the second link in the address class Java.I so they
+    can get some idea of all the different variations and that time we could certainly consider that to be future
+    requirement or requirements I'm not exactly sure how to phrase it but that we could use that to build our pluggable
+    validation based on where our customers come from so hopefully the address lines are self-explanatory than they feel
+    that sort of a free-form text area up to four lines according to that's stack overflow post where they can do
+    whatever the locality would also be called normally be called city in the US anyway the region would be considered
+    the state in the United States postal code postal code in the country to country so hopefully gunnels are
+    understandable if not take a look at the two links so once we build those classes then we will need to consider
+    validation how to do some type of pluggable validation on those and not getting get to that this evening but will
+    hopefully pick up on that tomorrow.</p>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-48307574-1');ga('send','pageview');
+</script>
+</body>
+</html>
