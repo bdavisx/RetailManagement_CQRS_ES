@@ -2,7 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Updated web doc." />
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Updated web doc.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/account/Account.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/account/AccountController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/account/AccountRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/ApplicationConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/AxonConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/DataSourceConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/DefaultDataSourceConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/JpaConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Locality.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/communication/PhoneNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/PostalCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Region.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/SecurityConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/factories/UUIDFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/account/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/vendor/Vendor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/WebAppInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/WebAppSecurityInitializer.java" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\account\Account.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\account\AccountController.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\account\AccountRepository.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\account\UserService.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\Address.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\AddressLines.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\Country.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\Locality.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\PostalCode.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\Region.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\factories\UUIDFactory.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\Application.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\ApplicationConfig.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\AxonConfiguration.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\DataSourceConfig.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\DefaultDataSourceConfig.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\JpaConfig.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\SecurityConfig.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\WebAppInitializer.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\WebAppSecurityInitializer.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\WebMvcConfig.kt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\domain\vendor\Vendor.kt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" afterPath="$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\communication\PhoneNumber.kt" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/communication/PhoneNumber.java" />
+    </list>
     <ignored path="RetailManagement.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,7 +110,38 @@
     <favorites_list name="RetailManagement" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="address-stories.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="133" column="0" selection-start="8575" selection-end="8575" vertical-scroll-proportion="-16.307692" vertical-offset="1837" max-vertical-offset="2533">
+              <folding>
+                <marker date="1393211928956" expanded="true" signature="802:955" placeholder="..." />
+                <marker date="1393211928956" expanded="true" signature="864:923" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Address.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Locality.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Locality.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.092517" vertical-offset="0" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -229,7 +306,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/../MyWorkflowsGradle" value="1392255958350" />
-        <entry key="$PROJECT_DIR$/RetailManagementApp" value="1393082637934" />
+        <entry key="$PROJECT_DIR$/RetailManagementApp" value="1393211928969" />
         <entry key="$PROJECT_DIR$/../github/spring-framework" value="1390410616799" />
       </map>
     </option>
@@ -490,7 +567,195 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billdavis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retailmanagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billdavis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retailmanagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billdavis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retailmanagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="location" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billdavis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retailmanagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="billdavis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retailManagement" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -706,21 +971,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -738,6 +988,21 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat Main" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.50" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -864,6 +1129,7 @@
       <workItem from="1392693029876" duration="6378000" />
       <workItem from="1392871236664" duration="1511000" />
       <workItem from="1392944402260" duration="19890000" />
+      <workItem from="1393212453279" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -905,7 +1171,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56996000" />
+    <option name="totallyTimeSpent" value="57177000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -929,7 +1195,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -944,7 +1210,7 @@
       <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34082156" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.338896" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.338896" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -952,7 +1218,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1007,50 +1273,40 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/tempGradleDependenciesHolding.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="714" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="714">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="714" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="714" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="714" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/build.gradle">
@@ -1069,41 +1325,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../github/kotlin-samples-for-spring/rest/rest.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="9" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.8095238" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
+        <state line="35" column="9" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.8095238" vertical-offset="0" max-vertical-offset="735" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="-2.56" vertical-offset="4" max-vertical-offset="714" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="-2.56" vertical-offset="4" max-vertical-offset="714">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/tempGradleDependenciesHolding.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.23380281" vertical-offset="21" max-vertical-offset="731" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.23380281" vertical-offset="21" max-vertical-offset="731">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github/RxJava/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06938776" vertical-offset="0" max-vertical-offset="1683">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06938776" vertical-offset="0" max-vertical-offset="1683" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="72" selection-start="1933" selection-end="1933" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1309">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="0" selection-start="8575" selection-end="8575" vertical-scroll-proportion="-16.307692" vertical-offset="1837" max-vertical-offset="2533">
+          <folding>
+            <marker date="1393211928956" expanded="true" signature="802:955" placeholder="..." />
+            <marker date="1393211928956" expanded="true" signature="864:923" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Locality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.092517" vertical-offset="0" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
