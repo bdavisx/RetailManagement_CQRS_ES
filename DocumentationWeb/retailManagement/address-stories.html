@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!DOCTYPE html><!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,9 +17,8 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-<!--[if lt IE 7]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
+<!--[if lt IE 7]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a
+    href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 
 <h1>Address Stories</h1>
 
@@ -64,12 +63,18 @@ off by default. The validation is only going to be based on the documents linked
 that we can validate any part of an address in a pluggable fashion, even if we don't based on the 3 countries listed
 above.</p>
 
-<p>If we validate the address commands we create and optionally any input on the users end, then we don't need to
-    actually validate the domain objects and events - this is how you should handle any validation when working with
-    Axon. While our domain objects are encapsulate Strings, the commands do not, so the validators will need to handle
-    Strings.</p>
+<p>We have to validate the address commands we create and optionally any input on the users end, because we can't
+    validate the events - this is how you have to handle any validation when working with Axon. This is a very important
+    concept to understand. The events just have to be applied to the aggregates, they can't be rejected. Imagine what
+    would happen if you originally applied an event to an aggregate, and then for whatever reason didn't apply it when
+    the events were being replayed from the event store. Now you've got a real problem, the event stream is invalid,
+    what would you do? Start the whole system over and erase everything? So you have to be able to apply any events once
+    the commands are processed and the events are created. If you discover that an event is invalid, you have to create
+    a <a href="http://blog.jonathanoliver.com/cqrs-event-sourcing-and-immutable-data/">compensating event</a> to undo
+    whatever the event changed that was wrong. </p>
 
-<p>Below is an initial cut at a CreateAddressCommand. We can't really use any Bean Validation / Hibernate Validation
+<p>While our domain objects are encapsulate Strings, the commands do not, so the validators will need to handle Strings.
+    Below is an initial cut at a CreateAddressCommand. We can't really use any Bean Validation / Hibernate Validation
     annotations because we don't have any hard and fast validations, as noted above. We also can't use the XML
     configuration from Hibernate Validator because it only allows a class to be configured once for validation - so we
     couldn't have one validation for the US and one for China. We also want to be able to use the same validation on the
@@ -109,12 +114,20 @@ public class CreateAddressCommand {
 <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 
 <script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-48307574-1');ga('send','pageview');
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-48307574-1');
+    ga('send', 'pageview');
 </script>
 </body>
 </html>
