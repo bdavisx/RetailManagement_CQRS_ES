@@ -28,6 +28,23 @@
     the addresses are too varied and it will just cause problems. We do want to be able to give our customers pluggable
     validation ability if they request it though.</p>
 
+<p>We need to model out the address and phone number. You might initially think that everything should be in Strings for
+    the fields - for example, Street Address, Locality (City), etc. Take a look at the <a
+        href="http://c2.com/cgi/wiki?PrimitiveObsession">Primitive Obsession</a> smell. In general, you should not use
+    primitives (and primitives include Strings) for objects. If you want to take this concept to extreme, you should
+    read the the <a href="http://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf">object
+        calisthenics</a> document. The calisthenics document is very extreme, so in general I don't follow it to the
+    letter. But it does have some really good ideas to think about. </p>
+
+<p>So for each of the types in the address we will use a class:
+<ul>
+    <li>Locality (City)</li>
+    <li>Region (State)</li>
+    <li>Postal Code</li>
+    <li>Country</li>
+</ul>
+Since we want this to be international application we are going to need pluggable validation on the address objects.</p>
+
 <p>Initially we want to support the G20 countries, since they have the most money. So this means we need to support
     their addresses, and if there are vendors that are from countries that supply the G20 but aren't part of it, then we
     should be able to support those too. This might open things up too much, but for now, we'll stick with G20.</p>
@@ -58,7 +75,7 @@ above.</p>
     couldn't have one validation for the US and one for China. We also want to be able to use the same validation on the
     front end if at all possible.</p>
 
-<pre>
+<pre class="prettyprint">
 public class CreateAddressCommand {
     private String addressLines;
     private String locality;
@@ -89,6 +106,7 @@ public class CreateAddressCommand {
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
