@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: axon-test-2.0.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.axonframework/axon-test/2.0.8/2e78986e265b515ae180220310b1697e08045d9f/axon-test-2.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.axonframework/axon-test/2.0.8/1624fc4a79f7240e25f713f4b6a21120e9e9f053/axon-test-2.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Starting the Project</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<h1>Starting the Project</h1>
+
+<p>We are going to start out with a single module (project) containing both the front and back ends. While this will
+    likely change, I want to keep it simple to start with.</p>
+
+<p>One "requirement" I forgot to mention in the first blog entry: If you're actually going to build an application like
+    this, you would probably build it as a Software as a Service application. So I'm going to refactor to include this
+    requirement, but I've already started working on the Vendor maintenance part.</p>
+
+<p>Initially we are going to need to create vendors. Vendors are the companies that supply the store(s) with products to
+    sell. Right now I'm not completely sure what we will need to handle vendors. I need to basically put some code down
+    to start with to basically build out the vendor structure. Right now I'm just figuring out exactly what a vendor
+    would consist of. I am thinking of the following:
+<ul>
+    <li>A UUID for the Ids. This allows us to generate the Ids ourselves instead of having a database do it for us. I
+        plan on using UUIDs for all objects in the system, not just vendors.
+    </li>
+    <li>Vendor name.</li>
+    <li>An address - the main address for the vendor. They might have many addresses such as warehouses. We will need to
+        deal with that in the future.
+    </li>
+    <li>Main phone number - we will deal with other phone numbers in the future also.</li>
+</ul>
+</p>
+
+<p>Take a look at the <a href="address-stories.html">address stories</a> page to see the initial address code.</p>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-48307574-1');ga('send','pageview');
+</script>
+</body>
+</html>

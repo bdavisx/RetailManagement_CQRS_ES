@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: axon-mongo-2.0.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.axonframework/axon-mongo/2.0.8/b25823b2b93644e88773eb458ab9342005225772/axon-mongo-2.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.axonframework/axon-mongo/2.0.8/c1e836177976ede4b3027b76611f2a5252e32da3/axon-mongo-2.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

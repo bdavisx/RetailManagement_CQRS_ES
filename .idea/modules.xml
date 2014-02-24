@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DocumentationWeb/DocumentationWeb.iml" filepath="$PROJECT_DIR$/DocumentationWeb/DocumentationWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" filepath="$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" />
+    </modules>
+  </component>
+</project>
+
