@@ -111,7 +111,7 @@ public class CreateAddressCommand {
     for the AddressLines, Locality, Region, etc? Or should there just be one validator that handles the entire Address
     String interface? Since we are considering pluggable validation, and that the validation can be different for each
     class depending on the Country, I'm thinking that we should have an overall address interface, as well as interfaces
-    for each individual class. This also follows the <a
+    for each individual class. This follows the <a
         href="http://en.wikipedia.org/wiki/Interface_segregation_principle">Interface Segregation Principle</a> that a
     class shouldn't have to depend on an interface that has more methods than the class needs. In other words, if you
     have a PostalCode validator class, and the only thing the validator needs is a Postal Code to do its validation,

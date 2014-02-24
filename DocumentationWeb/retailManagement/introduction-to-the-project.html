@@ -26,23 +26,24 @@
 <p>We're going to work on an application to study the <a href="http://www.axonframework.org/">Axon framework</a> along
     with <a href="http://goo.gl/ddX7vL">CQRS</a> and <a href="http://goo.gl/ADfs2F">Event Sourcing</a>. I'm going to
     create pieces of a a retail management application to explore CQRS. There may be parts of retail that would work
-    better as simple CRUD. If we find that, then we will see how the two can be mixed together safely (it they can be).
-    I'm not an expert with the Axon framework, I would consider myself intermediate. I could make some mistakes along
-    the way, but it will be a good learning experience in how to fix the mistakes. Make sure you understand what I said
-    above :), I don't consider myself to be at a point where I should be teaching about Axon, but if you follow along,
-    you can learn with me - I do have a lot of experience in Java and Application development in general. </p>
+    better as simple CRUD - if we find that, we're still going to use CQRS, and then reflect on why doing it as simple
+    CRUD might have been better. I'm not an expert with the Axon framework, I would consider myself intermediate. I
+    could make some mistakes along the way, but it will be a good learning experience in how to fix the mistakes. Make
+    sure you understand what I said above :), I don't consider myself to be at a point where I should be teaching about
+    Axon, but if you follow along, you can learn with me - I do have a lot of experience in Java and Application
+    development in general. </p>
 
 <p>You should read the <a href="http://www.axonframework.org/axon-2-quickstart-guide/">Axon quick start guide</a> before
     going any further, if you haven't already. <a href="http://www.axonframework.org/axon-2-quickstart-guide/">http://www.axonframework.org/axon-2-quickstart-guide/</a>.
 </p>
 
-<p>I don't really know retail management, so I'm going to go from feature lists from other applications, open source
-    or otherwise. But retail is an area we all have experience with from real life. I did work in a convenience
-    store and warehouses when I was going through college. I'm mentioning this because if you have some real retail
-    application development experience, I might make some kind of assumption that's completely wrong, but at least
-    you'll know why. I'm not pretending to know retail in-depth. I'm always open to suggestions for something that could
-    be done better. While I'm not aiming for a "real" retail management application, I do want the parts that I create
-    to be as realistic as possible. </p>
+<p>I don't really know retail management, so I'm going to go from feature lists from other applications, open source or
+    otherwise. But retail is an area we all have experience with from real life. Beyond just shopping, I did work in a
+    convenience store and warehouses when I was going through college. I'm mentioning this because if you have some real
+    retail application development experience, I might make some kind of assumption that's completely wrong, but at
+    least you'll know why. I'm not pretending to know retail in-depth. I'm always open to suggestions for something that
+    could be done better. While I'm not aiming for a "real" retail management application, I do want the parts that I
+    create to be as realistic as possible. </p>
 
 <p>What I do create will be open source (the github repository is <a
     href="https://github.com/bdavisx/RetailManagement_CQRS_ES">https://github.com/bdavisx/RetailManagement_CQRS_ES</a>

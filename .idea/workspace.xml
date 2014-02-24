@@ -2,52 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Updated web doc.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/account/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/account/AccountController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/account/AccountRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/ApplicationConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/AxonConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/DataSourceConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/DefaultDataSourceConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/JpaConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Locality.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/communication/PhoneNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/PostalCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Region.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/SecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/factories/UUIDFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/account/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/vendor/Vendor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/WebAppInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/WebAppSecurityInitializer.java" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\account\Account.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\account\AccountController.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\account\AccountRepository.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\account\UserService.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\Address.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\AddressLines.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\Country.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\Locality.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\PostalCode.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\location\Region.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\factories\UUIDFactory.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\Application.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\ApplicationConfig.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\AxonConfiguration.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\DataSourceConfig.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\DefaultDataSourceConfig.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\JpaConfig.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\SecurityConfig.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\WebAppInitializer.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\WebAppSecurityInitializer.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config\WebMvcConfig.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\domain\vendor\Vendor.kt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" afterPath="$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" />
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Fixed my merge / branching screw up :)">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" afterPath="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html" afterPath="$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\domain\general\communication\PhoneNumber.kt" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/communication/PhoneNumber.java" />
     </list>
     <ignored path="RetailManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,31 +70,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="address-stories.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
+      <file leaf-file-name="CreateVendorCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/vendor/CreateVendorCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="0" selection-start="8575" selection-end="8575" vertical-scroll-proportion="-16.307692" vertical-offset="1837" max-vertical-offset="2533">
-              <folding>
-                <marker date="1393211928956" expanded="true" signature="802:955" placeholder="..." />
-                <marker date="1393211928956" expanded="true" signature="864:923" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Address.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="7" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Locality.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Locality.java">
+      <file leaf-file-name="address-stories.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.092517" vertical-offset="0" max-vertical-offset="735">
+            <state line="117" column="36" selection-start="7902" selection-end="7902" vertical-scroll-proportion="-5.8461537" vertical-offset="1837" max-vertical-offset="2533">
+              <folding>
+                <marker date="1393213445601" expanded="true" signature="802:955" placeholder="..." />
+                <marker date="1393213445601" expanded="true" signature="864:923" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="introduction-to-the-project.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="0" selection-start="6423" selection-end="6423" vertical-scroll-proportion="0.8534483" vertical-offset="936" max-vertical-offset="1632">
               <folding />
             </state>
           </provider>
@@ -466,8 +425,8 @@
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/CreateAddressCommand.java" />
         <option value="$PROJECT_DIR$/DocumentationWeb/index.html" />
         <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" />
         <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/index.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" />
         <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html" />
       </list>
     </option>
@@ -781,7 +740,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistory" value="@Ben" />
-    <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1129,7 +1088,7 @@
       <workItem from="1392693029876" duration="6378000" />
       <workItem from="1392871236664" duration="1511000" />
       <workItem from="1392944402260" duration="19890000" />
-      <workItem from="1393212453279" duration="181000" />
+      <workItem from="1393212453279" duration="2578000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -1167,11 +1126,15 @@
       <created>1393211645917</created>
       <updated>1393211645917</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed my merge / branching screw up :)">
+      <created>1393212741041</created>
+      <updated>1393212741041</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57177000" />
+    <option name="totallyTimeSpent" value="59574000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1254,7 +1217,8 @@
     <MESSAGE value="Updating web docs." />
     <MESSAGE value="Web documentation is good for now, going to continue with the code." />
     <MESSAGE value="Updated web doc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated web doc." />
+    <MESSAGE value="Fixed my merge / branching screw up :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed my merge / branching screw up :)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1356,16 +1320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="0" selection-start="8575" selection-end="8575" vertical-scroll-proportion="-16.307692" vertical-offset="1837" max-vertical-offset="2533">
-          <folding>
-            <marker date="1393211928956" expanded="true" signature="802:955" placeholder="..." />
-            <marker date="1393211928956" expanded="true" signature="864:923" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
@@ -1375,7 +1329,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Locality.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.092517" vertical-offset="0" max-vertical-offset="735">
+        <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/vendor/CreateVendorCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="36" selection-start="7902" selection-end="7902" vertical-scroll-proportion="-5.8461537" vertical-offset="1837" max-vertical-offset="2533">
+          <folding>
+            <marker date="1393213445601" expanded="true" signature="802:955" placeholder="..." />
+            <marker date="1393213445601" expanded="true" signature="864:923" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="6423" selection-end="6423" vertical-scroll-proportion="0.8534483" vertical-offset="936" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
