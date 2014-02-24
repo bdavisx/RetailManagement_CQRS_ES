@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Address Stories</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -106,6 +106,16 @@ public class CreateAddressCommand {
 <p>If we want to be able to validate different objects with the same validation, we generally are going to want to have
     an Interface that our validator can use. So we will go ahead and extract an interface off the CreateAddressCommand.
     Then we can start to build a our validators and see what kind of commonalities they have.</p>
+
+<p>A question to consider is: Should we have an interface for each Class? In other words, should there be a validator
+    for the AddressLines, Locality, Region, etc? Or should there just be one validator that handles the entire Address
+    String interface? Since we are considering pluggable validation, and that the validation can be different for each
+    class depending on the Country, I'm thinking that we should have an overall address interface, as well as interfaces
+    for each individual class. This also follows the <a
+        href="http://en.wikipedia.org/wiki/Interface_segregation_principle">Interface Segregation Principle</a> that a
+    class shouldn't have to depend on an interface that has more methods than the class needs. In other words, if you
+    have a PostalCode validator class, and the only thing the validator needs is a Postal Code to do its validation,
+    then it shouldn't be working with the entire Address interface that includes a bunch of other methods.</p>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
