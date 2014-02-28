@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Starting the Project</title>
+    <title>Vendor Stories</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,22 +21,18 @@
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<h1>Starting the Project</h1>
+<p>Please email me at <a href="mailto:bill@billdavis.ws">bill@billdavis.ws</a> if you have any questions or comments.</p>
 
-<p>We are going to start out with a single module (project) containing both the front and back ends. While this will
-    likely change, I want to keep it simple to start with.</p>
-
-<p>One "requirement" I forgot to mention in the first blog entry: If you're actually going to build an application like
-    this, you would probably build it as a Software as a Service application. So I'm going to refactor to include this
-    requirement, but I've already started working on the Vendor maintenance part.</p>
+<h1>Vendor Stories</h1>
 
 <p>Initially we are going to need to create vendors. Vendors are the companies that supply the store(s) with products to
-    sell. Right now I'm not completely sure what we will need to handle vendors. I need to basically put some code down
-    to start with to basically build out the vendor structure. Right now I'm just figuring out exactly what a vendor
-    would consist of. I am thinking of the following:
+    sell. I'm not completely sure what we will need with respect to Vendors, but I have the following in mind as far as
+    what will need to go into a Create Vendor command:
 <ul>
     <li>A UUID for the Ids. This allows us to generate the Ids ourselves instead of having a database do it for us. I
-        plan on using UUIDs for all objects in the system, not just vendors.
+        plan on using UUIDs for all objects in the system, not just vendors. This is the <a
+            href="http://www.axonframework.org/docs/2.1/command-handling.html#d5e415">recommended approach</a> with Axon
+        and I have found it just works better in general whether or not you are using CQRS.
     </li>
     <li>Vendor name.</li>
     <li>An address - the main address for the vendor. They might have many addresses such as warehouses. We will need to

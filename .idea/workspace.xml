@@ -2,45 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Pulled out address interfaces from CreateAddressCommand in preparation for address validation.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/develop_server.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/content/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/introduction-to-the-project.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/pelicanconf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/publishconf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/starting-the-project.rst" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\404.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\apple-touch-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\css\normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\TOC.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\crossdomain.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\css.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\extend.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\faq.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\html.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\js.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\misc.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\usage.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\img\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\js\plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\js\vendor\jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\js\vendor\modernizr-2.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\robots.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" afterPath="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" />
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Getting Pelican documentation ready.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/bill.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.html" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\content\index.rst" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\content\retailManagement\address-stories.rst" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\content\retailManagement\index.rst" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\content\retailManagement\introduction-to-the-project.rst" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\content\retailManagement\starting-the-project.rst" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\develop_server.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\pelicanconf.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\publishconf.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\retailManagement\address-stories.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/DocumentationWeb.iml" afterPath="$PROJECT_DIR$/DocumentationWeb/DocumentationWeb.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\img\.gitignore" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/address-stories.rst" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\retailManagement\index.html" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.html" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\retailManagement\introduction-to-the-project.html" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.html" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\retailManagement\starting-the-project.html" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.html" />
     </list>
     <ignored path="RetailManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,74 +84,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HasRegion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasRegion.java">
+      <file leaf-file-name="address-stories.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Address.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="255" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.rst" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/index.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="address-stories.rst" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/address-stories.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="starting-the-project.rst" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/starting-the-project.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.rst" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/index.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="introduction-to-the-project.rst" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/introduction-to-the-project.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="starting-the-project.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-              <folding />
+            <state line="33" column="0" selection-start="1178" selection-end="1699" vertical-scroll-proportion="0.33333334" vertical-offset="221" max-vertical-offset="3859">
+              <folding>
+                <marker date="1393612459141" expanded="true" signature="802:955" placeholder="..." />
+                <marker date="1393612459141" expanded="true" signature="864:923" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -466,14 +386,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/config/AxonConfiguration.java" />
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/Application.java" />
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/factories/DateTimeConverter.java" />
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/account/AccountRepository.java" />
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/WebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/JpaConfig.java" />
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/ToDo.txt" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/Address.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Locality.java" />
@@ -496,17 +408,35 @@
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/AddressLines.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Country.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/build.gradle" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/index.html" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/index.html" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/vendor/CreateVendorCommand.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/CreateAddressCommand.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasAddress.java" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" />
         <option value="D:/temp/c5/header.php" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasRegion.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/index.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/address-stories.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/index.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/introduction-to-the-project.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/starting-the-project.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/templates/index.ftl" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/content/index.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/index.rst" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/address-stories.rst" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/introduction-to-the-project.rst" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/index.rst" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/starting-the-project.rst" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/pelicanconf.py" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/output/index.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/index.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/vendor-stories.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/index.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/index.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.html" />
       </list>
     </option>
   </component>
@@ -598,6 +528,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -795,38 +747,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="retailManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocumentationWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pelican" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocumentationWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pelican" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -838,10 +758,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DocumentationWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pelican" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -874,7 +790,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistory" value="@Ben" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -899,14 +815,15 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesRest language" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ws.billdavis.retailmanagement" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\source\RetailManagement\DocumentationWeb" />
       <recent name="D:\source\RetailManagement\DocumentationWeb\retailManagement" />
+      <recent name="D:\source\RetailManagement\DocumentationWeb" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\java\ws\billdavis" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\resources" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\webapp\WEB-INF" />
@@ -919,11 +836,11 @@
       <recent name="ws.billdavis.retailmanagement.domain.vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\source\RetailManagement\DocumentationWeb\content" />
+      <recent name="D:\source\RetailManagement\DocumentationWeb\pelican\content\pages" />
       <recent name="D:\source\RetailManagement\DocumentationWeb\pelican" />
-      <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\factories" />
-      <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\account" />
-      <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement" />
-      <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config" />
+      <recent name="D:\source\RetailManagement\DocumentationWeb\pelican\content" />
+      <recent name="D:\source\RetailManagement\DocumentationWeb\pelican\content\content" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat Main">
@@ -940,6 +857,73 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DocumentationWeb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DocumentationWeb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DocumentationWeb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -982,6 +966,26 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DocumentationWeb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -1043,6 +1047,46 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DocumentationWeb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DocumentationWeb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -1077,19 +1121,24 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DocumentationWeb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1109,6 +1158,21 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat Main" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.50" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -1238,7 +1302,10 @@
       <workItem from="1393212453279" duration="2684000" />
       <workItem from="1393215715489" duration="5591000" />
       <workItem from="1393388368792" duration="2255000" />
-      <workItem from="1393548932858" duration="176000" />
+      <workItem from="1393548932858" duration="3722000" />
+      <workItem from="1393555994819" duration="736000" />
+      <workItem from="1393557228221" duration="1548000" />
+      <workItem from="1393558808507" duration="11468000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -1288,11 +1355,15 @@
       <created>1393216256353</created>
       <updated>1393216256353</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Getting Pelican documentation ready.">
+      <created>1393549131486</created>
+      <updated>1393549131486</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67702000" />
+    <option name="totallyTimeSpent" value="85000000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1316,7 +1387,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1331,7 +1402,7 @@
       <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34082156" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.338896" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3215661" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1378,7 +1449,8 @@
     <MESSAGE value="Fixed my merge / branching screw up :)" />
     <MESSAGE value="Working on web files." />
     <MESSAGE value="Pulled out address interfaces from CreateAddressCommand in preparation for address validation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Pulled out address interfaces from CreateAddressCommand in preparation for address validation." />
+    <MESSAGE value="Getting Pelican documentation ready." />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting Pelican documentation ready." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1389,6 +1461,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasRegion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="28" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
@@ -1403,7 +1489,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
           <folding />
@@ -1459,7 +1545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
           <folding />
@@ -1473,14 +1559,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="36" selection-start="7902" selection-end="7902" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2533">
-          <folding />
-        </state>
+        <state line="117" column="36" selection-start="7902" selection-end="7902" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2533" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="90" column="0" selection-start="6423" selection-end="6423" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="1632" />
       </provider>
@@ -1491,35 +1575,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/tempGradleDependenciesHolding.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="714" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="714" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="714" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="714" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
@@ -1543,19 +1627,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="-2.56" vertical-offset="4" max-vertical-offset="714" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/tempGradleDependenciesHolding.txt">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/tempGradleDependenciesHolding.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.23380281" vertical-offset="21" max-vertical-offset="731" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github/RxJava/build.gradle">
@@ -1624,25 +1708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1005" selection-end="5766" vertical-scroll-proportion="-6.5384617" vertical-offset="221" max-vertical-offset="1649" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="0" selection-start="970" selection-end="12157" vertical-scroll-proportion="0.24281609" vertical-offset="2823" max-vertical-offset="3519">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasRegion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="28" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
@@ -1657,38 +1722,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/index.rst">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+        <state line="25" column="0" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-8.5" vertical-offset="204" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/introduction-to-the-project.rst">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+        <state line="25" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/address-stories.rst">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+        <state line="44" column="95" selection-start="2267" selection-end="2267" vertical-scroll-proportion="-19.576923" vertical-offset="239" max-vertical-offset="1139">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/starting-the-project.rst">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+        <state line="36" column="0" selection-start="1998" selection-end="1998" vertical-scroll-proportion="-18.26923" vertical-offset="137" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/index.rst">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+        <state line="35" column="43" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.34195402" vertical-offset="357" max-vertical-offset="1717">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1178" selection-end="1699" vertical-scroll-proportion="0.33333334" vertical-offset="221" max-vertical-offset="3859">
+          <folding>
+            <marker date="1393612459141" expanded="true" signature="802:955" placeholder="..." />
+            <marker date="1393612459141" expanded="true" signature="864:923" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
