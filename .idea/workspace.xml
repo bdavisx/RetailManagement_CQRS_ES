@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Getting Pelican documentation ready.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/bill.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.html" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\content\index.rst" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\content\retailManagement\address-stories.rst" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\content\retailManagement\index.rst" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\content\retailManagement\introduction-to-the-project.rst" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\content\retailManagement\starting-the-project.rst" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\develop_server.sh" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\pelicanconf.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\pelican\publishconf.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\retailManagement\address-stories.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/DocumentationWeb.iml" afterPath="$PROJECT_DIR$/DocumentationWeb/DocumentationWeb.iml" />
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Working on the documentation. Had trouble with Pelican, not going to spend a lot of time on it - I reverted back to straight HTML and will work on getting a static site generator setup when I don't feel like actually working on the Retail stuff - I've wasted enough time on it as it is.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\retailManagement\index.html" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.html" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\retailManagement\introduction-to-the-project.html" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.html" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\retailManagement\starting-the-project.html" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.html" />
     </list>
     <ignored path="RetailManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +70,7 @@
       <file leaf-file-name="address-stories.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1178" selection-end="1699" vertical-scroll-proportion="0.33333334" vertical-offset="221" max-vertical-offset="3859">
+            <state line="33" column="0" selection-start="1178" selection-end="1699" vertical-scroll-proportion="0.33333334" vertical-offset="329" max-vertical-offset="3859">
               <folding>
                 <marker date="1393612459141" expanded="true" signature="802:955" placeholder="..." />
                 <marker date="1393612459141" expanded="true" signature="864:923" placeholder="..." />
@@ -836,11 +819,11 @@
       <recent name="ws.billdavis.retailmanagement.domain.vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\source\RetailManagement\DocumentationWeb\generalDocuments" />
       <recent name="D:\source\RetailManagement\DocumentationWeb\content" />
       <recent name="D:\source\RetailManagement\DocumentationWeb\pelican\content\pages" />
       <recent name="D:\source\RetailManagement\DocumentationWeb\pelican" />
       <recent name="D:\source\RetailManagement\DocumentationWeb\pelican\content" />
-      <recent name="D:\source\RetailManagement\DocumentationWeb\pelican\content\content" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat Main">
@@ -1305,7 +1288,7 @@
       <workItem from="1393548932858" duration="3722000" />
       <workItem from="1393555994819" duration="736000" />
       <workItem from="1393557228221" duration="1548000" />
-      <workItem from="1393558808507" duration="11468000" />
+      <workItem from="1393558808507" duration="11623000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -1359,11 +1342,15 @@
       <created>1393549131486</created>
       <updated>1393549131486</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Working on the documentation. Had trouble with Pelican, not going to spend a lot of time on it - I reverted back to straight HTML and will work on getting a static site generator setup when I don't feel like actually working on the Retail stuff - I've wasted enough time on it as it is.">
+      <created>1393612800485</created>
+      <updated>1393612800485</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85000000" />
+    <option name="totallyTimeSpent" value="85155000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1387,7 +1374,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1402,7 +1389,7 @@
       <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34082156" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3215661" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3215661" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1411,6 +1398,7 @@
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1419,7 +1407,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1450,7 +1437,8 @@
     <MESSAGE value="Working on web files." />
     <MESSAGE value="Pulled out address interfaces from CreateAddressCommand in preparation for address validation." />
     <MESSAGE value="Getting Pelican documentation ready." />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting Pelican documentation ready." />
+    <MESSAGE value="Working on the documentation. Had trouble with Pelican, not going to spend a lot of time on it - I reverted back to straight HTML and will work on getting a static site generator setup when I don't feel like actually working on the Retail stuff - I've wasted enough time on it as it is." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on the documentation. Had trouble with Pelican, not going to spend a lot of time on it - I reverted back to straight HTML and will work on getting a static site generator setup when I don't feel like actually working on the Retail stuff - I've wasted enough time on it as it is." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
