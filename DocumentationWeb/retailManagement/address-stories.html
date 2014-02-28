@@ -22,6 +22,8 @@
 
 <h1>Address Stories</h1>
 
+<h4>This is currently in a very rough draft state...</h4>
+
 <p>Initially, we want to do the vendor stories. This means handling the addresses for vendors, so we need to work out
     general requirements and validation for addresses. In general, we don't want to force validation on our customers,
     the addresses are too varied and it will just cause problems. We do want to be able to give our customers pluggable
@@ -116,6 +118,62 @@ public class CreateAddressCommand {
     class shouldn't have to depend on an interface that has more methods than the class needs. In other words, if you
     have a PostalCode validator class, and the only thing the validator needs is a Postal Code to do its validation,
     then it shouldn't be working with the entire Address interface that includes a bunch of other methods.</p>
+
+<p>address lines, locality, region, postal code, country code? Has address</p>
+
+<p> how do we know what to pass the validator? In other words how do we know which interfaces it is interested in. Our
+    choices are reflection, interface implementation or annotations reflection in this case means going through an
+    entire class to find methods that take a particular has interface: this doesn't seem like a good idea because it
+    could pick up a method that is it really meant for validation but just takes one of the has interface classes as a
+    parameter that leaves us with interface implementation and annotations I'm leaning towards interface implementation
+    because it is more explicit.</p>
+
+<p>Examples: ValidatesAddress, ValidatesLocality, etc. [ValidatesAddressComponent as a "parent" interface (don't like
+    the Component part of the name.</p>
+
+<p> So the next decision is how to know when to apply a particular validator against a particular address the following for example could come into play:
+<ul>
+    <li>Country Code - the validator is designed for US addresses only.</li>
+    <li>Context of Address -  we might have different validation for vendors versus customers versus ?</li>
+    <li> Other address values – specific validator for certain cities or regions.</li>
+</ul></p>
+
+<p> One option would be to let the validator itself decide, but that breaks the single responsibility principle in the
+    sense that the validator is deciding what to validate along with doing the validation. I'm not sure that that's a
+    big deal though we might end up doing that will see.</p>
+
+<p> so it looks like there needs to be a separate ContextAwareAddressValidator. not sure if I like that name. The
+    context aware address validator will have the validate address and validate address, context methods which will
+    return the same values as a JSR 303 Bean validator. Of course this is actually an interface. we are going to need to
+    register validator's with this selector, along with a way to specify when the validator should apply. If you decide
+    that the validator itself should decide whether or not to validate then simply set up the chooser to always run that
+    particular validator the validator can then actually do the validation based on the addresses it wants to run them
+    on if he chooses not to validate an address it just doesn't do anything.</p>
+
+<p>there needs to be the ability to run multiple validator's foreign address not just one.</p>
+
+<pre class="prettyprint">
+    selector.addValidator( ValidatesAdddressComponent validator );
+    selector.addContextSpecificValidator( validator, { contexts? } );
+</pre>
+
+<p> Not sure how to handle the contexts, some type of outside object (or closure); or an enum. Would prefer to not use
+    an enum, because that generally will violate the Open Closed Principal. This is because to add a new context we
+    would have to basically add a new a new value. Whereas if we can figure out a way to do it with an interface or a
+    closure than we basically just have to add a new closure to the code somewhere and we don't have to open up the enum
+    and anything that depends on it. </p>
+
+<p> the next question is how do the validator's return errors and/or warnings/messages. If possible it's always best to
+    stay compatible with existing standards, so let's see if we can make our design compatible with standard Java
+    validation hibernate validator for example.</p>
+
+<p> the next thing we need to decide is where to hook the validator in the axon. This probably should be handled using a
+    command dispatch interceptor at a link to that in the documents for axon. See the axon docs for how standard being
+    validation on commands is handled and hooked into the command chain within a handle ours in a similar manner.</p>
+
+<p> So do we need an annotation on commands that should have address validation performed? With the annotation include
+    the context? Probably not if we're not using an enum. Or should this be handled programmatically hopefully it's
+    obvious I'm leaning towards programmatically.</p>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>

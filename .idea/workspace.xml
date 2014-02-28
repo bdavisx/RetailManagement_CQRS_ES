@@ -2,17 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Working on web files.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasAddress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasAddressLines.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasCountryCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasLocality.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasPostalCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasRegion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/CreateAddressCommand.java" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/CreateAddressCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" afterPath="$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html" afterPath="$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html" />
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Pulled out address interfaces from CreateAddressCommand in preparation for address validation.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/develop_server.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/content/index.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/index.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/introduction-to-the-project.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/pelicanconf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/publishconf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/starting-the-project.rst" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\404.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\apple-touch-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\css\main.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\css\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\crossdomain.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\css.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\extend.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\faq.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\html.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\js.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\misc.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\doc\usage.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\img\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\js\main.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\js\plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\js\vendor\jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\js\vendor\modernizr-2.6.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\DocumentationWeb\robots.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" afterPath="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\img\.gitignore" afterPath="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/address-stories.rst" />
     </list>
     <ignored path="RetailManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,94 +104,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CreateVendorCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/vendor/CreateVendorCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateAddressCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/CreateAddressCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="45" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HasAddressLines.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasAddressLines.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HasCountryCode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasCountryCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HasLocality.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasLocality.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HasAddress.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasAddress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HasPostalCode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasPostalCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HasRegion.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HasRegion.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasRegion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0462585" vertical-offset="0" max-vertical-offset="735">
+            <state line="2" column="28" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="address-stories.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
+      <file leaf-file-name="Address.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="36" selection-start="7902" selection-end="7902" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2533">
-              <folding>
-                <marker date="1393213445601" expanded="true" signature="802:955" placeholder="..." />
-                <marker date="1393213445601" expanded="true" signature="864:923" placeholder="..." />
-              </folding>
+            <state line="13" column="0" selection-start="255" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="introduction-to-the-project.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html">
+      <file leaf-file-name="index.rst" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/index.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="5340" selection-end="5340" vertical-scroll-proportion="-10.5" vertical-offset="917" max-vertical-offset="1649">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="address-stories.rst" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/address-stories.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="starting-the-project.rst" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/starting-the-project.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.rst" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/index.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="introduction-to-the-project.rst" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/introduction-to-the-project.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="starting-the-project.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -486,18 +493,20 @@
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/tempGradleDependenciesHolding.txt" />
         <option value="$PROJECT_DIR$/../github/RxJava/build.gradle" />
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/AddressLines.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Country.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/build.gradle" />
         <option value="$PROJECT_DIR$/DocumentationWeb/index.html" />
         <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html" />
         <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/index.html" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" />
         <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/vendor/CreateVendorCommand.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/CreateAddressCommand.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasAddress.java" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html" />
+        <option value="D:/temp/c5/header.php" />
+        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasRegion.java" />
+        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java" />
       </list>
     </option>
   </component>
@@ -508,6 +517,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -789,6 +799,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pelican" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pelican" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pelican" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -814,7 +878,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github/RxJava" />
+    <property name="last_opened_file_path" value="D:/temp/c5/header.php" />
     <property name="LayoutCode.rearrangeEntriesKotlin" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="196" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -855,11 +919,11 @@
       <recent name="ws.billdavis.retailmanagement.domain.vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\source\RetailManagement\DocumentationWeb\pelican" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\factories" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\account" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\config" />
-      <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\kotlin\ws\billdavis\retailmanagement\domain\vendor" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat Main">
@@ -901,6 +965,9 @@
       <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
@@ -915,6 +982,9 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -947,6 +1017,10 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1162,7 +1236,9 @@
       <workItem from="1392871236664" duration="1511000" />
       <workItem from="1392944402260" duration="19890000" />
       <workItem from="1393212453279" duration="2684000" />
-      <workItem from="1393215715489" duration="504000" />
+      <workItem from="1393215715489" duration="5591000" />
+      <workItem from="1393388368792" duration="2255000" />
+      <workItem from="1393548932858" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -1208,11 +1284,15 @@
       <created>1393215059245</created>
       <updated>1393215059245</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Pulled out address interfaces from CreateAddressCommand in preparation for address validation.">
+      <created>1393216256353</created>
+      <updated>1393216256353</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60184000" />
+    <option name="totallyTimeSpent" value="67702000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1236,7 +1316,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1251,7 +1331,7 @@
       <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34082156" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.338896" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.338896" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1297,7 +1377,8 @@
     <MESSAGE value="Updated web doc." />
     <MESSAGE value="Fixed my merge / branching screw up :)" />
     <MESSAGE value="Working on web files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on web files." />
+    <MESSAGE value="Pulled out address interfaces from CreateAddressCommand in preparation for address validation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pulled out address interfaces from CreateAddressCommand in preparation for address validation." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1308,6 +1389,83 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="255" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/CreateAddressCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="45" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasAddressLines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasCountryCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasLocality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasPostalCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/vendor/CreateVendorCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
@@ -1318,25 +1476,18 @@
     <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="36" selection-start="7902" selection-end="7902" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2533">
-          <folding>
-            <marker date="1393213445601" expanded="true" signature="802:955" placeholder="..." />
-            <marker date="1393213445601" expanded="true" signature="864:923" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="6423" selection-end="6423" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="1632">
-          <folding />
-        </state>
+        <state line="90" column="0" selection-start="6423" selection-end="6423" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="1632" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="952">
-          <folding />
-        </state>
+        <state line="19" column="4" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/tempGradleDependenciesHolding.txt">
@@ -1378,16 +1529,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="29" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="29" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../github/kotlin-samples-for-spring/rest/rest.iml">
@@ -1418,52 +1565,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Locality.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="36" selection-start="7902" selection-end="7902" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2533">
-          <folding>
-            <marker date="1393213445601" expanded="true" signature="802:955" placeholder="..." />
-            <marker date="1393213445601" expanded="true" signature="864:923" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/humans.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="5340" selection-end="5340" vertical-scroll-proportion="-10.5" vertical-offset="917" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
@@ -1517,9 +1624,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/introduction-to-the-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="1005" selection-end="5766" vertical-scroll-proportion="-6.5384617" vertical-offset="221" max-vertical-offset="1649" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/address-stories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="0" selection-start="970" selection-end="12157" vertical-scroll-proportion="0.24281609" vertical-offset="2823" max-vertical-offset="3519">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/retailManagement/starting-the-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasRegion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0462585" vertical-offset="0" max-vertical-offset="735">
+        <state line="2" column="28" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="255" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/introduction-to-the-project.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/address-stories.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/starting-the-project.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/pelican/content/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
