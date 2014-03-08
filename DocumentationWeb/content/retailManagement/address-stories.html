@@ -26,11 +26,11 @@
 
 <h4>This is currently in a very rough draft state...</h4>
 
-<p>I'll say up front that I'm probably over-complicating the address handling and validation, but since we're just
-    starting out, I want to lay a foundation for how Validation is going to be handled since it's such an important part
-    of any business application. I want to use "standards" based validation as much as possible, but I've always found
-    that it needs additional help once you get beyond the basics (and that's how the standard stuff is designed, it
-    can't cover every possibility obviously).</p>
+<p>I'll say up front that I'm probably over-complicating the address handling and validation (if this was for a client),
+    but since we're just starting out, I want to lay a foundation for how Validation is going to be handled since it's
+    such an important part of any business application. I want to use "standards" based validation as much as possible,
+    but I've always found that it needs additional help once you get beyond the basics (and that's how the standard
+    stuff is designed, it can't cover every possibility obviously).</p>
 
 <p>Initially, we want to do the vendor stories. This means handling the addresses for vendors, so we need to work out
     general requirements and validation for addresses. In general, we don't want to force validation on our customers,
@@ -194,6 +194,29 @@ public class Address {
 <p>So do we need an annotation on commands that should have address validation performed? If the ValidatorChain is hooked
     into the command dispatch chain, it needs some way to know that the command contains an address to validate. We
     shouldn't have to change it each time we add an address class (the OCP again).</p>
+
+<h2>PostalCode Validators</h2>
+
+<p>Let's start out with validating PostalCodes for the three countries mentioned above. For a US address, it consists
+    of either 5 or 9 digits. If it is 9 digits, there should be a dash between the 5th and 6th digits, like this:
+    '12345-6789'. I'm not a big fan of forcing the user to actually enter things in the correct format if the
+    computer is capable of fixing the format. In other words, if the computer can insert the '-' between the
+    digits, then let it. Forcing the user to enter anything exactly right when the computer is capable of correcting
+    the misformat is a really bad UX design.</p>
+
+<p>Just because the PostalCode is valid in terms of digits, that doesn't mean it's a valid US PostalCode. The US does
+    not use all combinations of PostalCodes. So we need to decide (or in the real world the Customer needs to decide)
+    whether or not to validate against a PostalCode database, or just check the format. We're going to go with the
+    database method, since that would be the best way to do it, assuming that the database is up to date (I don't know
+    how often the US Postal Service updates postal codes). A quick search for 'free postal code database'
+    returns <a href="http://download.geonames.org/export/zip/">http://download.geonames.org/export/zip/</a>.
+    So we will download the database and figure out how to import it into Postgres. In the real world, we would probably
+    consider subscribing to a commercial version if it appeared to be more up to date, but this will do for now.</p>
+
+<p>If you want to read about importing and creating the postal code file, it's on <a
+    href="postal-code-database-import.html">this page</a>. Otherwise let's continue with building our validator.</p>
+
+<h2>Creating Components for the System</h2>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>

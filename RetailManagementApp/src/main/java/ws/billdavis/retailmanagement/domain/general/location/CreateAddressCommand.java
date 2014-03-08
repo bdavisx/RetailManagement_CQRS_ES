@@ -1,6 +1,6 @@
 package ws.billdavis.retailmanagement.domain.general.location;
 
-public class CreateAddressCommand implements HasAddress {
+public class CreateAddressCommand implements HasStringAddress {
     private String addressLines;
     private String locality;
     private String region;

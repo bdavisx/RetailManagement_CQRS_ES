@@ -1,5 +1,5 @@
 package ws.billdavis.retailmanagement.domain.general.location;
 
-public interface HasCountryCode {
+public interface HasStringCountryCode {
     String getCountryCode();
 }

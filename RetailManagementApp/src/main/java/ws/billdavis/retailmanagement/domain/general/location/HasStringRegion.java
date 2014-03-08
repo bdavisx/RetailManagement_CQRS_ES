@@ -1,5 +1,5 @@
 package ws.billdavis.retailmanagement.domain.general.location;
 
-public interface HasAddressLines {
-    String getAddressLines();
+public interface HasStringRegion {
+    String getRegion();
 }
