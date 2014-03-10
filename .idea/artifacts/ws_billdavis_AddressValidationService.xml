@@ -1,0 +1,47 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ws.billdavis:AddressValidationService">
+    <output-path>$PROJECT_DIR$/out/artifacts/ws_billdavis_AddressValidationService</output-path>
+    <root id="archive" name="ws.billdavis_AddressValidationService.war">
+      <element id="javaee-facet-resources" facet="AddressValidationService/web/Web Gradle" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AddressValidationService" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: spring-boot-starter-web-1.0.0.RC1" />
+          <element id="library" level="project" name="Gradle: jackson-databind-2.3.2" />
+          <element id="library" level="project" name="Gradle: aopalliance-1.0" />
+          <element id="library" level="project" name="Gradle: commons-logging-1.1.1" />
+          <element id="library" level="project" name="Gradle: spring-core-4.0.0.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-beans-4.0.0.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-aop-4.0.0.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-expression-4.0.0.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-context-4.0.0.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-boot-1.0.0.RC1" />
+          <element id="library" level="project" name="Gradle: spring-boot-autoconfigure-1.0.0.RC1" />
+          <element id="library" level="project" name="Gradle: slf4j-api-1.7.5" />
+          <element id="library" level="project" name="Gradle: jcl-over-slf4j-1.7.5" />
+          <element id="library" level="project" name="Gradle: jul-to-slf4j-1.7.5" />
+          <element id="library" level="project" name="Gradle: log4j-over-slf4j-1.7.5" />
+          <element id="library" level="project" name="Gradle: logback-core-1.0.13" />
+          <element id="library" level="project" name="Gradle: logback-classic-1.0.13" />
+          <element id="library" level="project" name="Gradle: spring-boot-starter-logging-1.0.0.RC1" />
+          <element id="library" level="project" name="Gradle: spring-boot-starter-1.0.0.RC1" />
+          <element id="library" level="project" name="Gradle: tomcat-embed-core-7.0.47" />
+          <element id="library" level="project" name="Gradle: tomcat-embed-logging-juli-7.0.47" />
+          <element id="library" level="project" name="Gradle: spring-boot-starter-tomcat-1.0.0.RC1" />
+          <element id="library" level="project" name="Gradle: spring-web-4.0.0.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-webmvc-4.0.0.RELEASE" />
+          <element id="library" level="project" name="Gradle: jackson-annotations-2.3.0" />
+          <element id="library" level="project" name="Gradle: jackson-core-2.3.2" />
+          <element id="archive" name="ws.billdavis-AddressTransferObjects-0.1.jar">
+            <element id="module-output" name="AddressTransferObjects" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/ws_billdavis_AddressValidationService/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

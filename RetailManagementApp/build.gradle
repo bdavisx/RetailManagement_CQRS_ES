@@ -11,15 +11,13 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
+apply plugin: 'war'
 
 sourceCompatibility = 1.8
 
-apply plugin: 'war'
-apply plugin: 'idea'
-
 group = 'ws.billdavis'
-version = '0.1-SNAPSHOT'
-description = "RetailManagementSystem"
+description = "RetailManagementSystem-Main"
+version = '0.1'
 
 ext {
     axonVersion = '2.0.8'
