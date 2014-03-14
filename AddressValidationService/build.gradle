@@ -41,6 +41,7 @@ dependencies {
 
     compile group: "org.springframework.boot", name: "spring-boot-starter-web", version: springBootVersion
     compile group: "com.fasterxml.jackson.core", name: "jackson-databind", version: '2.3.2'
+    compile group: "org.hibernate", name: "hibernate-validator", version: "5.1.0.Final"
 
     testCompile group: 'junit', name: 'junit-dep', version:'4.11'
     testCompile group: 'org.easytesting', name: 'fest-assert', version:'1.4'
