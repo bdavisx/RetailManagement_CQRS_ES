@@ -1,9 +1,0 @@
-package ws.billdavis.services.validation.address.transferobjects;
-
-public class AddressText {
-    private String addressLines;
-    private String locality;
-    private String region;
-    private String postalCode;
-    private String country;
-}

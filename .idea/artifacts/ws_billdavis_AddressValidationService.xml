@@ -8,30 +8,8 @@
           <element id="module-output" name="AddressValidationService" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Gradle: spring-boot-starter-web-1.0.0.RC1" />
           <element id="library" level="project" name="Gradle: jackson-databind-2.3.2" />
           <element id="library" level="project" name="Gradle: aopalliance-1.0" />
-          <element id="library" level="project" name="Gradle: commons-logging-1.1.1" />
-          <element id="library" level="project" name="Gradle: spring-core-4.0.0.RELEASE" />
-          <element id="library" level="project" name="Gradle: spring-beans-4.0.0.RELEASE" />
-          <element id="library" level="project" name="Gradle: spring-aop-4.0.0.RELEASE" />
-          <element id="library" level="project" name="Gradle: spring-expression-4.0.0.RELEASE" />
-          <element id="library" level="project" name="Gradle: spring-context-4.0.0.RELEASE" />
-          <element id="library" level="project" name="Gradle: spring-boot-1.0.0.RC1" />
-          <element id="library" level="project" name="Gradle: spring-boot-autoconfigure-1.0.0.RC1" />
-          <element id="library" level="project" name="Gradle: slf4j-api-1.7.5" />
-          <element id="library" level="project" name="Gradle: jcl-over-slf4j-1.7.5" />
-          <element id="library" level="project" name="Gradle: jul-to-slf4j-1.7.5" />
-          <element id="library" level="project" name="Gradle: log4j-over-slf4j-1.7.5" />
-          <element id="library" level="project" name="Gradle: logback-core-1.0.13" />
-          <element id="library" level="project" name="Gradle: logback-classic-1.0.13" />
-          <element id="library" level="project" name="Gradle: spring-boot-starter-logging-1.0.0.RC1" />
-          <element id="library" level="project" name="Gradle: spring-boot-starter-1.0.0.RC1" />
-          <element id="library" level="project" name="Gradle: tomcat-embed-core-7.0.47" />
-          <element id="library" level="project" name="Gradle: tomcat-embed-logging-juli-7.0.47" />
-          <element id="library" level="project" name="Gradle: spring-boot-starter-tomcat-1.0.0.RC1" />
-          <element id="library" level="project" name="Gradle: spring-web-4.0.0.RELEASE" />
-          <element id="library" level="project" name="Gradle: spring-webmvc-4.0.0.RELEASE" />
           <element id="library" level="project" name="Gradle: jackson-annotations-2.3.0" />
           <element id="library" level="project" name="Gradle: jackson-core-2.3.2" />
           <element id="archive" name="ws.billdavis-AddressTransferObjects-0.1.jar">
@@ -41,6 +19,33 @@
           <element id="library" level="project" name="Gradle: validation-api-1.1.0.Final" />
           <element id="library" level="project" name="Gradle: jboss-logging-3.1.3.GA" />
           <element id="library" level="project" name="Gradle: classmate-1.0.0" />
+          <element id="library" level="project" name="Gradle: kotlin-stdlib-0.7.115" />
+          <element id="library" level="project" name="Gradle: kotlin-runtime-0.7.115" />
+          <element id="library" level="project" name="Gradle: AddressTransferObjects-0.1" />
+          <element id="library" level="project" name="Gradle: spring-boot-starter-web-1.0.0.RC4" />
+          <element id="library" level="project" name="Gradle: commons-logging-1.1.3" />
+          <element id="library" level="project" name="Gradle: spring-core-4.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-beans-4.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-aop-4.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-expression-4.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-context-4.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-boot-1.0.0.RC4" />
+          <element id="library" level="project" name="Gradle: spring-boot-autoconfigure-1.0.0.RC4" />
+          <element id="library" level="project" name="Gradle: slf4j-api-1.7.6" />
+          <element id="library" level="project" name="Gradle: jcl-over-slf4j-1.7.6" />
+          <element id="library" level="project" name="Gradle: jul-to-slf4j-1.7.6" />
+          <element id="library" level="project" name="Gradle: log4j-over-slf4j-1.7.6" />
+          <element id="library" level="project" name="Gradle: logback-core-1.1.1" />
+          <element id="library" level="project" name="Gradle: logback-classic-1.1.1" />
+          <element id="library" level="project" name="Gradle: spring-boot-starter-logging-1.0.0.RC4" />
+          <element id="library" level="project" name="Gradle: spring-boot-starter-1.0.0.RC4" />
+          <element id="library" level="project" name="Gradle: snakeyaml-1.13" />
+          <element id="library" level="project" name="Gradle: tomcat-embed-core-7.0.52" />
+          <element id="library" level="project" name="Gradle: tomcat-embed-el-7.0.52" />
+          <element id="library" level="project" name="Gradle: tomcat-embed-logging-juli-7.0.52" />
+          <element id="library" level="project" name="Gradle: spring-boot-starter-tomcat-1.0.0.RC4" />
+          <element id="library" level="project" name="Gradle: spring-web-4.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-webmvc-4.0.2.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">
