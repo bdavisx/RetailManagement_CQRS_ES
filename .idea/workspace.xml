@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Kotlin switch good.&#10;&#10;Setup file based repository for the projects.&#10;&#10;Have the validation service running correctly; don't have parms specified the way I want them.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/AddressText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/CountryCodeText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/PostalCodeText.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/ValidationConstraintError.java" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\AddressTransferObjects\src\main\kotlin\ws\billdavis\services\validation\address\transferobjects\AddressText.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\AddressTransferObjects\src\main\kotlin\ws\billdavis\services\validation\address\transferobjects\CountryCodeText.kt" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\AddressTransferObjects\src\main\kotlin\ws\billdavis\services\validation\address\transferobjects\PostalCodeText.kt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressTransferObjects/AddressTransferObjects.iml" afterPath="$PROJECT_DIR$/AddressTransferObjects/AddressTransferObjects.iml" />
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Removed Kotlin, most refactorings not currently working.&#10;&#10;Service working (dummy implementation).">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" afterPath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" afterPath="$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressTransferObjects/build.gradle" afterPath="$PROJECT_DIR$/AddressTransferObjects/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ws_billdavis_AddressValidationService.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ws_billdavis_AddressValidationService.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ws_billdavis_AddressValidationService__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ws_billdavis_AddressValidationService__exploded_.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" afterPath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationController.java" />
     </list>
     <ignored path="RetailManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,11 +71,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AddressValidationService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AddressValidationController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="14" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebAppInitializer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/WebAppInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationConfig.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="519" selection-end="519" vertical-scroll-proportion="0.30068028" vertical-offset="0" max-vertical-offset="735">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AxonConfiguration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/AxonConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="1209" selection-end="1342" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="1394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressValidationService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="22" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.23129252" vertical-offset="0" max-vertical-offset="735">
-              <folding />
+            <state line="18" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,12 +193,7 @@
         <entry file="file://$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/PostalCodeText.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="0" selection-start="153" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding>
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -988,9 +1022,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/starting-the-project.md" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/templates/index.ftl" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/content/index.md" />
         <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/index.rst" />
         <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/address-stories.rst" />
         <option value="$PROJECT_DIR$/DocumentationWeb/pelican/content/retailManagement/introduction-to-the-project.rst" />
@@ -1039,6 +1070,9 @@
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/AddressText.java" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/ValidationConstraintError.java" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" />
+        <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationController.java" />
+        <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java" />
       </list>
     </option>
   </component>
@@ -1097,7 +1131,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemId" value="RetailManagementApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1107,11 +1141,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemId" value="RetailManagementApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1121,15 +1155,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemId" value="RetailManagementApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="retailManagement" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1201,100 +1283,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AddressTransferObjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AddressTransferObjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AddressTransferObjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AddressTransferObjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transferobjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AddressTransferObjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="validation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -1346,6 +1334,7 @@
     <property name="Console.TableResult.DefaultCopyAction" value="Tab-separated Values (TSV)" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -1353,13 +1342,14 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ws.billdavis.services.validation.address" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ws.billdavis" />
       <recent name="ws.billdavis.retailmanagement" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -1373,11 +1363,9 @@
       <recent name="ws.billdavis.retailmanagement.domain.general.location" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ws.billdavis.services.validation.address" />
       <recent name="ws.billdavis.retailmanagement.domain.general.location" />
       <recent name="ws.billdavis.retailmanagement.domain.vendor" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="ws.billdavis.services.validation.address" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\source\RetailManagement\AddressTransferObjects\src\main\kotlin\ws\billdavis\services\validation\address\transferobjects" />
@@ -1385,6 +1373,9 @@
       <recent name="D:\source\RetailManagement\DocumentationWeb\content\downloads" />
       <recent name="D:\source\RetailManagement\DocumentationWeb\generalDocuments" />
       <recent name="D:\source\RetailManagement\DocumentationWeb\content" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ws.billdavis.services.validation.address" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.RetailManagementApp::source:RetailManagement:AddressTransferObjects [uploadArchives]">
@@ -2080,7 +2071,7 @@
       <workItem from="1394298807949" duration="982000" />
       <workItem from="1394300450790" duration="19615000" />
       <workItem from="1394759264660" duration="10871000" />
-      <workItem from="1394995571474" duration="3707000" />
+      <workItem from="1394995571474" duration="8138000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2158,11 +2149,15 @@
       <created>1394894963402</created>
       <updated>1394894963402</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Removed Kotlin, most refactorings not currently working.&#10;&#10;Service working (dummy implementation).">
+      <created>1394999321293</created>
+      <updated>1394999321293</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157804000" />
+    <option name="totallyTimeSpent" value="162235000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2199,10 +2194,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57030225" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34082156" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34082156" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33568677" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33568677" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2258,7 +2253,8 @@
     <MESSAGE value="Checking in new project" />
     <MESSAGE value="Going to switch the service TO's to Kotlin since it's so much simpler to deal with &quot;properties&quot;." />
     <MESSAGE value="Kotlin switch good.&#10;&#10;Setup file based repository for the projects.&#10;&#10;Have the validation service running correctly; don't have parms specified the way I want them." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin switch good.&#10;&#10;Setup file based repository for the projects.&#10;&#10;Have the validation service running correctly; don't have parms specified the way I want them." />
+    <MESSAGE value="Removed Kotlin, most refactorings not currently working.&#10;&#10;Service working (dummy implementation)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Kotlin, most refactorings not currently working.&#10;&#10;Service working (dummy implementation)." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2269,19 +2265,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/tempGradleDependenciesHolding.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="714" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagementApp/ToDo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="714" />
@@ -2470,13 +2453,6 @@
         <state line="3" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/creating-components-services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.3347701" vertical-offset="362" max-vertical-offset="1343" />
@@ -2534,12 +2510,7 @@
     <entry file="file://$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/PostalCodeText.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="153" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2583,8 +2554,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.23129252" vertical-offset="0" max-vertical-offset="735">
+        <state line="18" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="678" selection-end="678" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="391">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/AxonConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1209" selection-end="1342" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="14" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/config/WebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="519" selection-end="519" vertical-scroll-proportion="0.30068028" vertical-offset="0" max-vertical-offset="735">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
