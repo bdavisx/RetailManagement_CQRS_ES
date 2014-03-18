@@ -68,6 +68,7 @@
     <orderEntry type="library" exported="" name="Gradle: spring-jdbc-4.0.2.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: spring-tx-4.0.2.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: postgresql-9.1-901.jdbc4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: ValidationSupportLibrary-0.1" level="project" />
   </component>
 </module>
 

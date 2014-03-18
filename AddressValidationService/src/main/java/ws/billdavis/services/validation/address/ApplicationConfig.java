@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.jdbc.datasource.SimpleDriverDataSource;
 import org.springframework.stereotype.Controller;
+import ws.billdavis.services.validation.ValidationConstraintErrorFactory;
 
 import javax.sql.DataSource;
 
@@ -40,7 +41,6 @@ class ApplicationConfig {
     public DataSource dataSource( @Value("${url}") String jdbcUrl, @Value("${username}") String user,
         @Value("${password}") String password) {
 
-        // TODO: make configurable thru properties
         SimpleDriverDataSource dataSource = new SimpleDriverDataSource();
         dataSource.setDriverClass( Driver.class );
         dataSource.setUsername( user );
@@ -48,4 +48,28 @@ class ApplicationConfig {
         dataSource.setUrl( jdbcUrl );
         return dataSource;
     }
+
+    @Bean
+    public ValidationConstraintErrorFactory validationConstraintErrorFactory() {
+        // TODO: this s/b in it's own config module in the support library
+        return new ValidationConstraintErrorFactory();
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

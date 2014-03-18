@@ -47,6 +47,7 @@
           <element id="library" level="project" name="Gradle: spring-jdbc-4.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: spring-tx-4.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: postgresql-9.1-901.jdbc4" />
+          <element id="library" level="project" name="Gradle: ValidationSupportLibrary-0.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -7,7 +7,7 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/retail_management</jdbc-url>
       <user-name>postgres</user-name>
-      <user-password>dfc9df9adfc7df9fdfffdfc4dfc3dfd2</user-password>
+      <user-password>df9adfdadfe4df92dfeedff2dffbdf99dfcbdfe7dfcfdfed</user-password>
       <libraries />
     </data-source>
   </component>
