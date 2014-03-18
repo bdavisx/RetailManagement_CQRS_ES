@@ -2,14 +2,18 @@ package ws.billdavis.services.validation.address;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+import javax.sql.DataSource;
+
+@Repository
 public class AddressValidationDAO {
-    @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    public AddressValidationDAO() {}
+    @Autowired
+    public AddressValidationDAO( DataSource dataSource ) {
+        this.jdbcTemplate = new JdbcTemplate( dataSource );
+    }
 
     public boolean areThereRecordsForPostalCode( String postalCode ) {
         return jdbcTemplate.queryForObject( "select count(*) from postal_codes where postal_code = ?;",
