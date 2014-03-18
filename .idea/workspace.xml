@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Have separated out Controller/Service/DAO. Still need to externalize jdbc properties or some other way.">
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Changed how the DAO was being confiigured based on documentation.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationDAO.java" afterPath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java" afterPath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="ApplicationConfig.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.51428574" vertical-offset="285" max-vertical-offset="1020">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +104,7 @@
       <file leaf-file-name="AddressValidationDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="20" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -985,8 +985,8 @@
         <option value="db-console:/15457a01/955aa2be-8591-4245-b5fe-c83dfbd8a8e9/" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationController.java" />
-        <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationDAO.java" />
+        <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java" />
       </list>
     </option>
   </component>
@@ -1940,7 +1940,7 @@
       <workItem from="1394298807949" duration="982000" />
       <workItem from="1394300450790" duration="19615000" />
       <workItem from="1394759264660" duration="10871000" />
-      <workItem from="1394995571474" duration="20871000" />
+      <workItem from="1394995571474" duration="22514000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2038,11 +2038,15 @@
       <created>1395109358541</created>
       <updated>1395109358541</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Changed how the DAO was being confiigured based on documentation.">
+      <created>1395111233405</created>
+      <updated>1395111233405</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174968000" />
+    <option name="totallyTimeSpent" value="176611000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2142,7 +2146,8 @@
     <MESSAGE value="Refactoring service to be structured, then real implementation." />
     <MESSAGE value="Service working against database: need to parameterize db access; encapsulate db access (kinda violating SRP currently)" />
     <MESSAGE value="Have separated out Controller/Service/DAO. Still need to externalize jdbc properties or some other way." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have separated out Controller/Service/DAO. Still need to externalize jdbc properties or some other way." />
+    <MESSAGE value="Changed how the DAO was being confiigured based on documentation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed how the DAO was being confiigured based on documentation." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2480,7 +2485,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+        <state line="20" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2489,7 +2494,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.51428574" vertical-offset="285" max-vertical-offset="1020">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

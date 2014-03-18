@@ -10,13 +10,16 @@ import javax.sql.DataSource;
 public class AddressValidationDAO {
     private JdbcTemplate jdbcTemplate;
 
-    @Autowired
-    public AddressValidationDAO( DataSource dataSource ) {
-        this.jdbcTemplate = new JdbcTemplate( dataSource );
+    public AddressValidationDAO(  ) {
     }
 
     public boolean areThereRecordsForPostalCode( String postalCode ) {
         return jdbcTemplate.queryForObject( "select count(*) from postal_codes where postal_code = ?;",
             Integer.class, postalCode ) > 0;
+    }
+
+    @Autowired
+    public void setDataSource( final DataSource dataSource ) {
+        jdbcTemplate = new JdbcTemplate( dataSource );
     }
 }

@@ -1,10 +1,12 @@
 package ws.billdavis.services.validation.address;
 
 import org.postgresql.Driver;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.core.io.FileSystemResource;
 import org.springframework.jdbc.datasource.SimpleDriverDataSource;
 import org.springframework.stereotype.Controller;
 
@@ -17,12 +19,12 @@ import static org.springframework.context.annotation.ComponentScan.Filter;
     excludeFilters = @Filter({Controller.class, Configuration.class}))
 class ApplicationConfig {
 
-//	@Bean
-//	public static PropertyPlaceholderConfigurer propertyPlaceholderConfigurer() {
-//		PropertyPlaceholderConfigurer ppc = new PropertyPlaceholderConfigurer();
-//		ppc.setLocation(new ClassPathResource("/persistence.properties"));
-//		return ppc;
-//	}
+	@Bean
+	public static PropertyPlaceholderConfigurer propertyPlaceholderConfigurer() {
+		PropertyPlaceholderConfigurer ppc = new PropertyPlaceholderConfigurer();
+		ppc.setLocation(new FileSystemResource("d:\\source\\jdbcProperties.properties"));
+		return ppc;
+	}
 
     @Bean
     public AddressValidationService addressValidationService() {
@@ -31,24 +33,19 @@ class ApplicationConfig {
 
     @Bean
     public AddressValidationDAO addressValidationDAO() {
-        return new AddressValidationDAO( dataSource() );
+        return new AddressValidationDAO();
     }
 
     @Bean
-    public JdbcTemplate jdbcTemplate() {
-        DataSource dataSource = dataSource();
-        JdbcTemplate jdbcTemplate = new JdbcTemplate( dataSource );
-        return jdbcTemplate;
-    }
+    public DataSource dataSource( @Value("${url}") String jdbcUrl, @Value("${username}") String user,
+        @Value("${password}") String password) {
 
-    @Bean
-    public DataSource dataSource() {
         // TODO: make configurable thru properties
         SimpleDriverDataSource dataSource = new SimpleDriverDataSource();
         dataSource.setDriverClass( Driver.class );
-        dataSource.setUsername( "postgres" );
-        dataSource.setPassword( "c0m5Unix" );
-        dataSource.setUrl( "jdbc:postgresql://localhost:5432/retail_management" );
+        dataSource.setUsername( user );
+        dataSource.setPassword( password );
+        dataSource.setUrl( jdbcUrl );
         return dataSource;
     }
 }
