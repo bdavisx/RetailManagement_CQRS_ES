@@ -9,8 +9,7 @@ public class AddressValidationDAO {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    public AddressValidationDAO() {
-    }
+    public AddressValidationDAO() {}
 
     public boolean areThereRecordsForPostalCode( String postalCode ) {
         return jdbcTemplate.queryForObject( "select count(*) from postal_codes where postal_code = ?;",
