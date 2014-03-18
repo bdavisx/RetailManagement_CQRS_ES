@@ -1,8 +1,11 @@
 package ws.billdavis.services.validation.address;
 
+import org.postgresql.Driver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.datasource.SimpleDriverDataSource;
 import org.springframework.stereotype.Controller;
 
 import static org.springframework.context.annotation.ComponentScan.Filter;
@@ -22,5 +25,22 @@ class ApplicationConfig {
     @Bean
     public AddressValidationService addressValidationService() {
         return new AddressValidationService();
+    }
+
+    @Bean
+    public AddressValidationDAO addressValidationDAO() {
+        return new AddressValidationDAO();
+    }
+
+    @Bean
+    public JdbcTemplate jdbcTemplate() {
+        // TODO: make configurable thru properties
+        SimpleDriverDataSource dataSource = new SimpleDriverDataSource();
+        dataSource.setDriverClass( Driver.class );
+        dataSource.setUsername( "postgres" );
+        dataSource.setPassword( "c0m5Unix" );
+        dataSource.setUrl( "jdbc:postgresql://localhost:5432/retail_management" );
+        JdbcTemplate jdbcTemplate = new JdbcTemplate( dataSource );
+        return jdbcTemplate;
     }
 }
