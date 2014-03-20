@@ -28,16 +28,6 @@ class ApplicationConfig {
 	}
 
     @Bean
-    public AddressValidationService addressValidationService() {
-        return new AddressValidationService( );
-    }
-
-    @Bean
-    public AddressValidationDAO addressValidationDAO() {
-        return new AddressValidationDAO();
-    }
-
-    @Bean
     public DataSource dataSource( @Value("${url}") String jdbcUrl, @Value("${username}") String user,
         @Value("${password}") String password) {
 
