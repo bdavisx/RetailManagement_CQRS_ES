@@ -16,12 +16,21 @@ public class AddressValidationService {
     @Autowired
     private ValidationConstraintErrorFactory validationConstraintErrorFactory;
 
-    public AddressValidationService() {
+    public AddressValidationService() {}
+
+    public AddressValidationService( AddressValidationDAO addressValidationDAO,
+        ValidationConstraintErrorFactory validationConstraintErrorFactory ) {
+        this.addressValidationDAO = addressValidationDAO;
+        this.validationConstraintErrorFactory = validationConstraintErrorFactory;
     }
 
     public List<ValidationConstraintError> validatePostalCode( final PostalCodeText postalCodeText ) {
+        final String countryCode = postalCodeText.getCountryCode();
         final String postalCode = postalCodeText.getPostalCode();
-        boolean areThereRecordsForPostalCode = addressValidationDAO.areThereRecordsForPostalCode( postalCode );
+
+        boolean areThereRecordsForPostalCode = addressValidationDAO.areThereRecordsForPostalCode(
+            countryCode, postalCode );
+
         List<ValidationConstraintError> errors = new ArrayList<>();
         if( !areThereRecordsForPostalCode ) {
             // TODO: setup constraint error factory w/ message resource builder
