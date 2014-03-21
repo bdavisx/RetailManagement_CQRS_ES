@@ -26,7 +26,8 @@ public class AddressValidationService {
 
     public List<ValidationConstraintError> validatePostalCode( final PostalCodeText postalCodeText ) {
         final String countryCode = postalCodeText.getCountryCode();
-        final String postalCode = postalCodeText.getPostalCode();
+
+        String postalCode = adjustPostalCodeForCorrectLength( postalCodeText.getPostalCode() );
 
         boolean areThereRecordsForPostalCode = addressValidationDAO.areThereRecordsForPostalCode(
             countryCode, postalCode );
@@ -39,6 +40,13 @@ public class AddressValidationService {
             errors.add( error );
         }
         return errors;
+    }
+
+    private String adjustPostalCodeForCorrectLength( String postalCode ) {
+        if( postalCode.length() == 9 || postalCode.length() == 10 ) {
+            postalCode = postalCode.substring( 0, 5 );
+        }
+        return postalCode;
     }
 
 
