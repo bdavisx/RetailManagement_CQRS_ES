@@ -73,15 +73,15 @@ project( ":AddressTransferObjects" ) {
 
 }
 
-project( "AddressValidationService" ) {
+project( ":AddressValidationService" ) {
     apply plugin: 'war'
     apply plugin: 'spring-boot'
 
     dependencies {
         providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
 
-        compile group: "ws.billdavis", name: "AddressTransferObjects", version: "0.1"
-        compile group: "ws.billdavis", name: "ValidationSupportLibrary", version: "0.1"
+        compile project( ":AddressTransferObjects" )
+        compile project( ":ValidationSupportLibrary" )
 
         compile group: "org.springframework.boot", name: "spring-boot-starter-web", version: springBootVersion
         compile group: "com.fasterxml.jackson.core", name: "jackson-databind", version: '2.3.2'
@@ -91,7 +91,7 @@ project( "AddressValidationService" ) {
     }
 }
 
-project( "ValidationSupportLibrary" ) {
+project( ":ValidationSupportLibrary" ) {
     dependencies {
         compile group: "org.hibernate", name: "hibernate-validator", version: "5.1.0.Final"
     }

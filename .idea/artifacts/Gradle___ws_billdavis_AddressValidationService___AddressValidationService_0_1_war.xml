@@ -19,7 +19,6 @@
           <element id="library" level="project" name="Gradle: validation-api-1.1.0.Final" />
           <element id="library" level="project" name="Gradle: jboss-logging-3.1.3.GA" />
           <element id="library" level="project" name="Gradle: classmate-1.0.0" />
-          <element id="library" level="project" name="Gradle: AddressTransferObjects-0.1" />
           <element id="library" level="project" name="Gradle: spring-boot-starter-web-1.0.0.RC4" />
           <element id="library" level="project" name="Gradle: commons-logging-1.1.3" />
           <element id="library" level="project" name="Gradle: spring-core-4.0.2.RELEASE" />
@@ -47,7 +46,9 @@
           <element id="library" level="project" name="Gradle: spring-jdbc-4.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: spring-tx-4.0.2.RELEASE" />
           <element id="library" level="project" name="Gradle: postgresql-9.1-901.jdbc4" />
-          <element id="library" level="project" name="Gradle: ValidationSupportLibrary-0.1" />
+          <element id="archive" name="ws.billdavis-ValidationSupportLibrary-0.1.jar">
+            <element id="module-output" name="ValidationSupportLibrary" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">
