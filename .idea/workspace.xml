@@ -2332,7 +2332,7 @@
       <workItem from="1395195325118" duration="21058000" />
       <workItem from="1395525188941" duration="617000" />
       <workItem from="1395880106765" duration="7196000" />
-      <workItem from="1396571263897" duration="4462000" />
+      <workItem from="1396571263897" duration="4472000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2478,11 +2478,15 @@
       <created>1397008297429</created>
       <updated>1397008297429</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Copied the SQLEventStore files in (not tested, not fully working). Wanted to get them on GitHub.">
+      <created>1397008312299</created>
+      <updated>1397008312299</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217386000" />
+    <option name="totallyTimeSpent" value="217396000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
