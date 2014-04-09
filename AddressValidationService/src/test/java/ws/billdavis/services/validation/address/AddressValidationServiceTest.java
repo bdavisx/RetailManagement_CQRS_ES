@@ -18,6 +18,7 @@ public class AddressValidationServiceTest {
     private static final String Valid9DigitUSPostalCodeWithoutDash = "617045555";
     private static final String Valid9DigitUSPostalCodeWithDash = "61704-5555";
     private static final String NonExistent5DigitUSPostalCode = "69999";
+    private static final String Malformed5DigitUSPostalCode = "626AB";
 
     private AddressValidationDAO addressValidationDAO;
     private ValidationConstraintErrorFactory validationConstraintErrorFactory;
@@ -71,6 +72,18 @@ public class AddressValidationServiceTest {
         assertThat( errors, contains( new ValidationContraintErrorAllFieldsMatcher( ValidationConstraintError.class,
             "The Postal Code does not exist.", PostalCodeText.class.getCanonicalName(),
             "PostalCode", NonExistent5DigitUSPostalCode ) ) );
+    }
+
+    @Test
+    public void itShouldReturnErrorsForInvalidUS5DigitCode() throws Exception {
+        setupDAOForValid5DigitUSPostalCode();
+
+        final List<ValidationConstraintError> errors =
+            service.validatePostalCode( new PostalCodeText( CountryCodeForUS, Malformed5DigitUSPostalCode ) );
+
+        assertThat( errors, contains( new ValidationContraintErrorAllFieldsMatcher( ValidationConstraintError.class,
+            "The Postal Code is not in the correct format.", PostalCodeText.class.getCanonicalName(),
+            "PostalCode", Malformed5DigitUSPostalCode ) ) );
     }
 
     private void setupDAOForValid5DigitUSPostalCode() {

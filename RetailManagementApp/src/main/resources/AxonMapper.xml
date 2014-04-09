@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gliffer.support.sqleventstore.SQLEventStore">
+
+    <select id="doesAggregateExist">
+        SELECT 1 FROM AGGREGATE WHERE AGGREGATE_UUID=#{aggregateUUID}
+    </select>
+
+    <select id="insertAggregate">
+        INSERT INTO AGGREGATE
+        (AGGREGATE_UUID, TYPE, VERSION_NUMBER) VALUES
+        (#{aggregateUUID}, #{type}, #{versionNumber})
+    </select>
+
+    <select id="insertEvent">
+        INSERT INTO EVENT_STORE
+        (EVENT_UUID, EVENT_DATA, VERSION_NUMBER, AGGREGATE_UUID) VALUES
+        (#{eventUUID}, #{eventData}, #{versionNumber}, #{aggregateUUID})
+    </select>
+
+    <select id="updateAggregateVersionNumber">
+        UPDATE AGGREGATE
+        SET VERSION_NUMBER=#{versionNumber}
+        WHERE AGGREGATE_UUID=#{aggregateUUID}
+    </select>
+
+    <select id="selectAggregateEventsData">
+        SELECT EVENT_DATA
+        FROM EVENT_STORE
+        WHERE AGGREGATE_UUID=#{aggregateUUID}
+        ORDER BY VERSION_NUMBER
+    </select>
+
+    <select id="selectAggregateEventsDataAfterVersion">
+        SELECT EVENT_DATA FROM EVENT_STORE
+        WHERE AGGREGATE_UUID=#{aggregateUUID} and version_number > #{versionNumber}
+        ORDER BY VERSION_NUMBER
+    </select>
+
+    <select id="insertSnapshotEvent">
+        INSERT INTO SNAPSHOT_EVENT_STORE (EVENT_UUID, EVENT_DATA, VERSION_NUMBER, AGGREGATE_UUID)
+        VALUES (#{eventUUID}, #{eventData}, #{versionNumber}, #{aggregateUUID})
+    </select>
+
+    <select id="selectLastSnapshotEventData" resultMap="snapshotDataResultMap">
+        SELECT EVENT_DATA, version_number
+        FROM SNAPSHOT_EVENT_STORE WHERE AGGREGATE_UUID=#{aggregateUUID}
+        ORDER BY VERSION_NUMBER desc
+        fetch first 1 row only
+    </select>
+
+    <resultMap id="snapshotDataResultMap" type="com.gliffer.support.sqleventstore.SnapshotData">
+        <result property="eventData" column="event_data"/>
+        <result property="sequenceNumber" column="version_number"/>
+    </resultMap>
+
+</mapper>
