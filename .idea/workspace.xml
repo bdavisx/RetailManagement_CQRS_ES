@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
     <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Copied the SQLEventStore files in (not tested, not fully working). Wanted to get them on GitHub.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/resources/AxonMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RetailManagement.iws" />
@@ -2333,7 +2332,7 @@
       <workItem from="1395195325118" duration="21058000" />
       <workItem from="1395525188941" duration="617000" />
       <workItem from="1395880106765" duration="7196000" />
-      <workItem from="1396571263897" duration="4442000" />
+      <workItem from="1396571263897" duration="4462000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2475,11 +2474,15 @@
       <created>1397007922411</created>
       <updated>1397007922411</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Copied the SQLEventStore files in (not tested, not fully working). Wanted to get them on GitHub.">
+      <created>1397008297429</created>
+      <updated>1397008297429</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217366000" />
+    <option name="totallyTimeSpent" value="217386000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
