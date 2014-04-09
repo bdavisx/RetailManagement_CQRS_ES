@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AddressTransferObjects/AddressTransferObjects.iml" filepath="$PROJECT_DIR$/AddressTransferObjects/AddressTransferObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/AddressValidationService/AddressValidationService.iml" filepath="$PROJECT_DIR$/AddressValidationService/AddressValidationService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConversionUtilities/ConversionUtilities.iml" filepath="$PROJECT_DIR$/ConversionUtilities/ConversionUtilities.iml" />
       <module fileurl="file://$PROJECT_DIR$/DocumentationWeb/DocumentationWeb.iml" filepath="$PROJECT_DIR$/DocumentationWeb/DocumentationWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/RetailManagement.iml" filepath="$PROJECT_DIR$/RetailManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" filepath="$PROJECT_DIR$/RetailManagementApp/RetailManagementApp.iml" />

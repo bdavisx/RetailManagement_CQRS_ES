@@ -216,8 +216,32 @@ public class Address {
 <p>If you want to read about importing and creating the postal code file, it's on <a
     href="postal-code-database-import.html">this page</a>. Otherwise let's continue with building our validator.</p>
 
-<h2>Creating Components for the System</h2>
+<h1>Creating Components/Services for the System</h1>
 
+<p>As I'm getting to the point of putting some "real" code down, I'm thinking about how to split things of project wise
+    (or module's in the case of IntelliJ). It seems obvious that the address validation can be usable from a lot of
+    different areas of the system - vendors, customers, stores, etc. So it should be a "component". But how are we going
+    to define component as far as the system is concerned.</p>
+
+<p>A monolithic system is not going to work, period. I've already discussed the fact that there are going to be
+    different pieces of the system that could be written using different front end architectures, so a single giant
+    application isn't going to work. So then we need to decide how to group the different items into components /
+    services.</p>
+
+<p>I think that since the address validation can be used from many different places, it should be it's own service. So
+    I'm going to create a new IntelliJ module (equivalent to an Eclipse project) for the address validation. In this
+    case we're going to implement something of a <a
+        href="http://yobriefca.se/blog/2013/04/29/micro-service-architecture/">micro-service</a>. While I'm not
+    advocating that the entire system be composed of micro-services (although perhaps I'll move that way as we go
+    along), in this case it seems like the perfect solution. It's tempting to use <a
+        href="http://dropwizard.codahale.com/">DropWizard</a> for this part of the system, but I'm a fan of consistency,
+    and unless we switch to DropWizard for everything, then I don't want to use it for just one piece.</p>
+
+<p>So I'm going to build a small service with Spring. I'm going to use JDBC instead of Hibernate for this part, since
+    the service will mainly be doing lookups.</p>
+
+<p>Version 1 is a simple spike to explore a possible interface. It does not have tests and only handles very simple
+    input. From here, we will build the actual service that can handle multiple countries with pluggable validators.</p>
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

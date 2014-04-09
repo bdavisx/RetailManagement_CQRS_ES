@@ -24,3 +24,10 @@ create table postal_codes (
 );
 
 create index postal_codes_country_code_postal_code on postal_codes (country_code, postal_code);
+
+drop table postal_code_validation_regular_expressions;
+
+create table postal_code_validation_regular_expressions (
+    country_code char(2) not null primary key,
+    regular_expression varchar(1024) not null
+);

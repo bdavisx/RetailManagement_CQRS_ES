@@ -14,4 +14,14 @@ public class ValidationConstraintError {
     public void setPropertyPath( final String propertyPath ) { this.propertyPath = propertyPath; }
     public String getInvalidValue() { return invalidValue; }
     public void setInvalidValue( final String invalidValue ) { this.invalidValue = invalidValue; }
+
+    @Override
+    public String toString() {
+        return "ValidationConstraintError{" +
+            "itemBeingValidatedName='" + itemBeingValidatedName + '\'' +
+            ", propertyPath='" + propertyPath + '\'' +
+            ", invalidValue='" + invalidValue + '\'' +
+            ", message='" + message + '\'' +
+            '}';
+    }
 }

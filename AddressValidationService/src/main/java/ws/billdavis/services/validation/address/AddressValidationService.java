@@ -27,19 +27,30 @@ public class AddressValidationService {
     public List<ValidationConstraintError> validatePostalCode( final PostalCodeText postalCodeText ) {
         final String countryCode = postalCodeText.getCountryCode();
 
-        String postalCode = adjustPostalCodeForCorrectLength( postalCodeText.getPostalCode() );
+        List<ValidationConstraintError> errors = new ArrayList<>();
+        if( !checkPostalCodeForCorrectFormat( postalCodeText.getPostalCode() ) ) {
+            ValidationConstraintError error = validationConstraintErrorFactory.createConstraintError(
+                PostalCodeText.class, "PostalCode", postalCodeText.getPostalCode(),
+                "The Postal Code is not in the correct format." );
+            errors.add( error );
+        }
+
+        String adjustedPostalCode = adjustPostalCodeForCorrectLength( postalCodeText.getPostalCode() );
 
         boolean areThereRecordsForPostalCode = addressValidationDAO.areThereRecordsForPostalCode(
-            countryCode, postalCode );
+            countryCode, adjustedPostalCode );
 
-        List<ValidationConstraintError> errors = new ArrayList<>();
         if( !areThereRecordsForPostalCode ) {
             // TODO: setup constraint error factory w/ message resource builder
             ValidationConstraintError error = validationConstraintErrorFactory.createConstraintError(
-                PostalCodeText.class, "PostalCode", postalCode, "The Postal Code does not exist." );
+                PostalCodeText.class, "PostalCode", adjustedPostalCode, "The Postal Code does not exist." );
             errors.add( error );
         }
         return errors;
+    }
+
+    private boolean checkPostalCodeForCorrectFormat( final String postalCode ) {
+
     }
 
     private String adjustPostalCodeForCorrectLength( String postalCode ) {

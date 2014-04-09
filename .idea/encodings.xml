@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/EventStoreSerializer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/ObjectInputStreamAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/SQLEventStore.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/SQLEventStoreDAO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/SQLEventStoreDAOMyBatisPostgres.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/SnapshotData.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/UUIDTypeHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/XStreamEventStoreSerializer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/test/java/sqleventstore/EventStoreTestUtilities.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/test/java/sqleventstore/MockSQLEventStoreDAO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/test/java/sqleventstore/ObjectInputStreamAdapterTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/test/java/sqleventstore/SQLEventStoreTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RetailManagementApp/src/test/java/sqleventstore/UUIDMatcher.java" charset="UTF-8" />
+  </component>
 </project>
 
