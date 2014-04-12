@@ -50,7 +50,7 @@ public class AddressValidationService {
     }
 
     private boolean checkPostalCodeForCorrectFormat( final String postalCode ) {
-
+        return false;
     }
 
     private String adjustPostalCodeForCorrectLength( String postalCode ) {

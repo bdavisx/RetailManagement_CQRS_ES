@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Copied the SQLEventStore files in (not tested, not fully working). Wanted to get them on GitHub.">
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Adding the mapper file.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/PostalCodeRegExParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/PostalCodeRegExParserTest.java" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\EventStoreSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\ObjectInputStreamAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\SQLEventStore.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\SQLEventStoreDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\SQLEventStoreDAOMyBatisPostgres.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\SnapshotData.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\UUIDTypeHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\XStreamEventStoreSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\resources\AxonMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\test\java\sqleventstore\EventStoreTestUtilities.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\test\java\sqleventstore\MockSQLEventStoreDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\test\java\sqleventstore\ObjectInputStreamAdapterTest.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\test\java\sqleventstore\SQLEventStoreTest.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\test\java\sqleventstore\UUIDMatcher.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" afterPath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversionUtilities/ConversionUtilities.iml" afterPath="$PROJECT_DIR$/ConversionUtilities/ConversionUtilities.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RetailManagement.iws" />
@@ -71,49 +91,22 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
-              <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1853">
+              <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventStoreSerializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/EventStoreSerializer.java">
+      <file leaf-file-name="address-stories.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectInputStreamAdapterTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/test/java/sqleventstore/ObjectInputStreamAdapterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UUIDTypeHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/UUIDTypeHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AxonMapper.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/resources/AxonMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2431" max-vertical-offset="4709">
+              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+              <folding>
+                <marker date="1397176476858" expanded="true" signature="802:955" placeholder="..." />
+                <marker date="1397176476858" expanded="true" signature="864:923" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,9 +114,22 @@
       <file leaf-file-name="ConvertUnicodeOrgPostalCodeRegExFile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="306">
               <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postal-code-database-import.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="1904">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <marker date="1393741222992" expanded="true" signature="802:955" placeholder="..." />
+                <marker date="1393741222992" expanded="true" signature="864:923" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,9 +137,43 @@
       <file leaf-file-name="ConvertUnicodeOrgPostalCodeRegExFileTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="374">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostalCodeRegExParserTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/PostalCodeRegExParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.3518072" vertical-offset="0" max-vertical-offset="714">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostalCodeRegExParser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/PostalCodeRegExParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="986">
+              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressValidationService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1071">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+              <folding>
+                <element signature="e#2360#2361#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,7 +181,7 @@
       <file leaf-file-name="create.ddl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/db/create.ddl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+            <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="663">
               <caret line="30" column="1" selection-start-line="29" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
@@ -694,92 +734,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/ConversionUtilities/build.gradle">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles classes 'main'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles Java source 'main:java'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles Java source 'test:java'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes resources 'main:resources'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes resources 'test:resources'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles classes 'test'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uploads all artifacts belonging to configuration ':ConversionUtilities:archives'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
-                <option name="name" value="uploadArchives" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/ValidationSupportLibrary">
           <value>
             <list>
@@ -1106,11 +1060,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.html" />
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/test/java/manualCode/CreateSQLIImportForPostalCodes.java" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.html" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/content/index.html" />
-        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/CreateAddressCommand.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/ws/billdavis/retailmanagement/domain/general/location/HasStringAddress.java" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/creating-components.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -1148,15 +1097,20 @@
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/test/java/ws/billdavis/services/validation/address/AddressValidationServiceTest.java" />
         <option value="$PROJECT_DIR$/ValidationSupportLibrary/src/main/java/ws/billdavis/services/validation/ValidationConstraintError.java" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.html" />
-        <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFile.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/db/create.ddl" />
-        <option value="$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFileTest.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/EventStoreSerializer.java" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/test/java/sqleventstore/ObjectInputStreamAdapterTest.java" />
+        <option value="$PROJECT_DIR$/RetailManagementApp/src/main/resources/AxonMapper.xml" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html" />
+        <option value="$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFileTest.java" />
+        <option value="$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/UnicodeOrgFileHandlerTest.java" />
+        <option value="C:/ide/jdk1.8.0/src.zip!/java/lang/FunctionalInterface.java" />
+        <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" />
+        <option value="$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/PostalCodeRegExParserTest.java" />
+        <option value="$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/PostalCodeRegExParser.java" />
       </list>
     </option>
   </component>
@@ -1200,8 +1154,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1314,7 +1268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemId" value="DocumentationWeb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1328,7 +1282,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConversionUtilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConversionUtilities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1350,33 +1358,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemId" value="ConversionUtilities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1392,7 +1374,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sqleventstore" />
+              <option name="myItemId" value="conversion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1406,123 +1388,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
+              <option name="myItemId" value="ConversionUtilities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sqleventstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagementApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1538,7 +1408,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -1546,7 +1416,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistory" value="@Ben" />
-    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
+    <property name="options.lastSelected" value="editing.templates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1609,6 +1479,7 @@
       <recent name="ws.billdavis.retailmanagement.domain.general.location" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ws.billdavis.utilities.conversion" />
       <recent name="ws.billdavis.services.validation.address" />
       <recent name="ws.billdavis.retailmanagement.domain.general.location" />
       <recent name="ws.billdavis.retailmanagement.domain.vendor" />
@@ -1624,7 +1495,7 @@
       <recent name="ws.billdavis.services.validation.address" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddressValidationServiceTest">
+  <component name="RunManager" selected="JUnit.PostalCodeRegExParserTest.itShouldFindTheCountry">
     <configuration default="false" name="AddressValidationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1651,25 +1522,6 @@
       <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RetailManagement [uploadArchives]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="uploadArchives" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
       <method />
     </configuration>
     <configuration default="false" name="RetailManagement:AddressTransferObjects [uploadArchives]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -1736,6 +1588,38 @@
       <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PostalCodeRegExParserTest.itShouldFindTheCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ws.billdavis.utilities.conversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ConversionUtilities" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ws.billdavis.utilities.conversion" />
+      <option name="MAIN_CLASS_NAME" value="ws.billdavis.utilities.conversion.PostalCodeRegExParserTest" />
+      <option name="METHOD_NAME" value="itShouldFindTheCountry" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -1805,6 +1689,14 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -1818,14 +1710,6 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -1847,10 +1731,6 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -1870,6 +1750,10 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -2266,18 +2150,18 @@
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat Main" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.RetailManagementApp" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.AddressValidationServiceTest" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.RetailManagement [uploadArchives]" />
-      <item index="5" class="java.lang.String" itemvalue="Gradle.RetailManagement:AddressTransferObjects [uploadArchives]" />
-      <item index="6" class="java.lang.String" itemvalue="Gradle.RetailManagement:ValidationSupportLibrary [uploadArchives]" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.AddressValidationServiceTest.itShouldReturnErrorsForInvalidUS5DigitCode" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.RetailManagement:AddressTransferObjects [uploadArchives]" />
+      <item index="5" class="java.lang.String" itemvalue="Gradle.RetailManagement:ValidationSupportLibrary [uploadArchives]" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.AddressValidationServiceTest.itShouldReturnErrorsForInvalidUS5DigitCode" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.PostalCodeRegExParserTest.itShouldFindTheCountry" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AddressValidationServiceTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AddressValidationServiceTest.itShouldReturnErrorsForInvalidUS5DigitCode" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.RetailManagement:ValidationSupportLibrary [uploadArchives]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.RetailManagement:AddressTransferObjects [uploadArchives]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.RetailManagement [uploadArchives]" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PostalCodeRegExParserTest.itShouldFindTheCountry" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AddressValidationServiceTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AddressValidationServiceTest.itShouldReturnErrorsForInvalidUS5DigitCode" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.RetailManagement:ValidationSupportLibrary [uploadArchives]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.RetailManagement:AddressTransferObjects [uploadArchives]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -2333,6 +2217,7 @@
       <workItem from="1395525188941" duration="617000" />
       <workItem from="1395880106765" duration="7196000" />
       <workItem from="1396571263897" duration="4472000" />
+      <workItem from="1397230331644" duration="7759000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2482,11 +2367,15 @@
       <created>1397008312299</created>
       <updated>1397008312299</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Adding the mapper file.">
+      <created>1397008379927</created>
+      <updated>1397008379927</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217396000" />
+    <option name="totallyTimeSpent" value="230234000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2527,23 +2416,23 @@
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33547556" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3992095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32938075" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31940874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57030225" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34318766" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2566,7 +2455,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Fixed my merge / branching screw up :)" />
     <MESSAGE value="Working on web files." />
     <MESSAGE value="Pulled out address interfaces from CreateAddressCommand in preparation for address validation." />
     <MESSAGE value="Getting Pelican documentation ready." />
@@ -2591,21 +2479,24 @@
     <MESSAGE value="Changing over to single gradle build file." />
     <MESSAGE value="Successful build w/ single gradle project." />
     <MESSAGE value="Copied the SQLEventStore files in (not tested, not fully working). Wanted to get them on GitHub." />
-    <option name="LAST_COMMIT_MESSAGE" value="Copied the SQLEventStore files in (not tested, not fully working). Wanted to get them on GitHub." />
+    <MESSAGE value="Adding the mapper file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the mapper file." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/db/create.ddl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1785">
-          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="663">
+          <caret line="30" column="1" selection-start-line="29" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -2643,13 +2534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="3" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19746122" vertical-offset="1169" max-vertical-offset="1904">
-          <caret line="77" column="53" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2884,45 +2768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.961538" vertical-offset="3711" max-vertical-offset="4692">
-          <caret line="232" column="30" selection-start-line="232" selection-start-column="30" selection-end-line="232" selection-end-column="30" />
-          <folding>
-            <marker date="1395888688297" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395888688297" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1071">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AddressValidationService/src/test/java/ws/billdavis/services/validation/address/AddressValidationServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1938">
           <caret line="84" column="45" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -2935,43 +2784,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="1904">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1393741222992" expanded="true" signature="802:955" placeholder="..." />
+            <marker date="1393741222992" expanded="true" signature="864:923" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2431" max-vertical-offset="4709">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding>
+            <marker date="1397176476858" expanded="true" signature="802:955" placeholder="..." />
+            <marker date="1397176476858" expanded="true" signature="864:923" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
-          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1853">
+          <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/EventStoreSerializer.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/7.0.47/9a82fa99b57ad280d1e9c93d3c40446a1cd0cec3/tomcat-embed-core-7.0.47-sources.jar!/javax/servlet/http/HttpServletResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.3488372" vertical-offset="0" max-vertical-offset="9945">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/test/java/sqleventstore/ObjectInputStreamAdapterTest.java">
+    <entry file="jar://C:/ide/jdk1.8.0/src.zip!/java/lang/FunctionalInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.31053352" vertical-offset="113" max-vertical-offset="867">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/java/sqleventstore/UUIDTypeHandler.java">
+    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1071">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#2360#2361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/PostalCodeRegExParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="986">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/resources/AxonMapper.xml">
+    <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/PostalCodeRegExParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="1.3518072" vertical-offset="0" max-vertical-offset="714">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3030,11 +2929,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AddressValidationService</last-edited>
+          <last-edited>ConversionUtilities</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.28847703" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

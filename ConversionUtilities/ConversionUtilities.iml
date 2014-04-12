@@ -23,6 +23,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: fest-util-1.1.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: commons-logging-1.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: spring-core-4.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: xml-apis-1.0.b2" level="project" />
   </component>
 </module>
 
