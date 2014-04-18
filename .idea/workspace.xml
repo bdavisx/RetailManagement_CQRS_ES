@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Adding the mapper file.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/PostalCodeRegExParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/PostalCodeRegExParserTest.java" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\EventStoreSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\ObjectInputStreamAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\SQLEventStore.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\SQLEventStoreDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\SQLEventStoreDAOMyBatisPostgres.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\SnapshotData.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\UUIDTypeHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\java\sqleventstore\XStreamEventStoreSerializer.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\main\resources\AxonMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\test\java\sqleventstore\EventStoreTestUtilities.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\test\java\sqleventstore\MockSQLEventStoreDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\test\java\sqleventstore\ObjectInputStreamAdapterTest.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\test\java\sqleventstore\SQLEventStoreTest.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\RetailManagementApp\src\test\java\sqleventstore\UUIDMatcher.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" afterPath="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversionUtilities/ConversionUtilities.iml" afterPath="$PROJECT_DIR$/ConversionUtilities/ConversionUtilities.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Initial test for postal code parsing passing; needs refactoring to better design.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/PostalCodeRegExParser.java" afterPath="$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/PostalCodeRegExParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/PostalCodeRegExParserTest.java" afterPath="$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/PostalCodeRegExParserTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RetailManagement.iws" />
@@ -144,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostalCodeRegExParserTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PostalCodeRegExParserTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/PostalCodeRegExParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3518072" vertical-offset="0" max-vertical-offset="714">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostalCodeRegExParser.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PostalCodeRegExParser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/PostalCodeRegExParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="986">
-              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.39534885" vertical-offset="51" max-vertical-offset="952">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -1416,7 +1398,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistory" value="@Ben" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1619,7 +1601,9 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -2217,7 +2201,7 @@
       <workItem from="1395525188941" duration="617000" />
       <workItem from="1395880106765" duration="7196000" />
       <workItem from="1396571263897" duration="4472000" />
-      <workItem from="1397230331644" duration="7759000" />
+      <workItem from="1397230331644" duration="14757000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2371,11 +2355,15 @@
       <created>1397008379927</created>
       <updated>1397008379927</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Initial test for postal code parsing passing; needs refactoring to better design.">
+      <created>1397342059142</created>
+      <updated>1397342059142</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230234000" />
+    <option name="totallyTimeSpent" value="237232000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2414,18 +2402,18 @@
       <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34061697" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33547556" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33547556" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3992095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31940874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31940874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57030225" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2455,7 +2443,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Working on web files." />
     <MESSAGE value="Pulled out address interfaces from CreateAddressCommand in preparation for address validation." />
     <MESSAGE value="Getting Pelican documentation ready." />
     <MESSAGE value="Working on the documentation. Had trouble with Pelican, not going to spend a lot of time on it - I reverted back to straight HTML and will work on getting a static site generator setup when I don't feel like actually working on the Retail stuff - I've wasted enough time on it as it is." />
@@ -2480,7 +2467,8 @@
     <MESSAGE value="Successful build w/ single gradle project." />
     <MESSAGE value="Copied the SQLEventStore files in (not tested, not fully working). Wanted to get them on GitHub." />
     <MESSAGE value="Adding the mapper file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the mapper file." />
+    <MESSAGE value="Initial test for postal code parsing passing; needs refactoring to better design." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial test for postal code parsing passing; needs refactoring to better design." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2493,31 +2481,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/db/create.ddl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="663">
-          <caret line="30" column="1" selection-start-line="29" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1139">
-          <caret line="32" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/15457a01/955aa2be-8591-4245-b5fe-c83dfbd8a8e9/retail_management.public.postal_codes">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://D:/downloads/programming/java/RetailManagement/ZipCodes/allCountries.sql">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
@@ -2856,21 +2819,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/PostalCodeRegExParser.java">
+    <entry file="jar://C:/ide/jdk1.8.0/src.zip!/org/xml/sax/InputSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="986">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.33242133" vertical-offset="675" max-vertical-offset="5066">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ide/jdk1.8.0/src.zip!/javax/xml/parsers/DocumentBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33286908" vertical-offset="203" max-vertical-offset="5423">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ide/jdk1.8.0/src.zip!/org/w3c/dom/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33286908" vertical-offset="33" max-vertical-offset="13787">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/PostalCodeRegExParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3518072" vertical-offset="0" max-vertical-offset="714">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/PostalCodeRegExParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39534885" vertical-offset="51" max-vertical-offset="952">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

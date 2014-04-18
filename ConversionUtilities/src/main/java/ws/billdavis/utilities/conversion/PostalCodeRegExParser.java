@@ -26,18 +26,16 @@ public class PostalCodeRegExParser {
     // TODO: this needs to be class based vs. Strings
     private final Supplier<Map<String, String>> containerFactory;
 
-    public PostalCodeRegExParser( final DocumentBuilderFactory documentBuilderFactory,
-        final Supplier<Map<String, String>> containerFactory ) {
-        this.documentBuilderFactory = documentBuilderFactory;
+    public PostalCodeRegExParser( final Supplier<Map<String, String>> containerFactory ) {
+        this.documentBuilderFactory = DocumentBuilderFactory.newInstance();
         this.containerFactory = containerFactory;
     }
 
     public Map<String, String> parse( final Reader xmlReader ) {
         Map<String, String> regExContainer = new HashMap<>();
         InputSource source = new InputSource( xmlReader );
-        DocumentBuilder documentBuilder = null;
         try {
-            documentBuilder = documentBuilderFactory.newDocumentBuilder();
+            DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             Document document = documentBuilder.parse(source);
 
             XPathFactory xPathfactory = XPathFactory.newInstance();
