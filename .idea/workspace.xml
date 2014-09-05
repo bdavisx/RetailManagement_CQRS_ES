@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Working on parser.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_test_4_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/webapp/application/angular-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/webapp/application/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/webapp/application/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RetailManagementApp/src/main/webapp/index.html" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__jackson_core_2_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__jackson_databind_2_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__jcl_over_slf4j_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__jul_to_slf4j_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__log4j_over_slf4j_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__logback_classic_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__logback_core_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__slf4j_api_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_aop_4_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_beans_4_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_boot_1_0_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_boot_autoconfigure_1_0_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_boot_starter_1_0_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_boot_starter_logging_1_0_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_boot_starter_tomcat_1_0_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_boot_starter_web_1_0_0_RC4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_context_4_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_core_4_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_expression_4_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_web_4_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__spring_webmvc_4_0_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__tomcat_embed_core_7_0_52.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__tomcat_embed_el_7_0_52.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\source\RetailManagement\.idea\libraries\Gradle__tomcat_embed_logging_juli_7_0_52.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressTransferObjects/AddressTransferObjects.iml" afterPath="$PROJECT_DIR$/AddressTransferObjects/AddressTransferObjects.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressValidationService/AddressValidationService.iml" afterPath="$PROJECT_DIR$/AddressValidationService/AddressValidationService.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversionUtilities/ConversionUtilities.iml" afterPath="$PROJECT_DIR$/ConversionUtilities/ConversionUtilities.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ws_billdavis_AddressValidationService___AddressValidationService_0_1_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ws_billdavis_AddressValidationService___AddressValidationService_0_1_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ws_billdavis_AddressValidationService___AddressValidationService_0_1_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ws_billdavis_AddressValidationService___AddressValidationService_0_1_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ValidationSupportLibrary/ValidationSupportLibrary.iml" afterPath="$PROJECT_DIR$/ValidationSupportLibrary/ValidationSupportLibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Going to start a JavaFX application, switch documentation to markdown (as in writing an e-book).">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\initialApplicationJavaFX\basics.html" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
     </list>
     <ignored path="RetailManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,8 +59,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -106,11 +68,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="basics.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.html">
+      <file leaf-file-name="basics.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9004329" vertical-offset="141" max-vertical-offset="1173">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.07234043" vertical-offset="0" max-vertical-offset="705">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1065,7 +1030,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/AddressText.java" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/test/java/ws/billdavis/services/validation/address/AddressValidationServiceTest.java" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/AddressText.kt" />
@@ -1116,6 +1080,7 @@
         <option value="$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.html" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
       </list>
     </option>
   </component>
@@ -1143,6 +1108,78 @@
         <expanded-state>
           <State>
             <id />
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>Cloning issues</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Encapsulation issues</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>Initialization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Web Services</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -1229,6 +1266,54 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retailManagement" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="retailManagement" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initialApplicationJavaFX" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -1251,7 +1336,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistory" value="@Ben" />
-    <property name="options.lastSelected" value="Markdown" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1535,6 +1620,14 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -1548,14 +1641,6 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -1577,10 +1662,6 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -1600,6 +1681,10 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -2103,7 +2188,8 @@
       <workItem from="1408679151352" duration="4800000" />
       <workItem from="1408838524871" duration="1822000" />
       <workItem from="1408918239322" duration="653000" />
-      <workItem from="1409946303011" duration="121000" />
+      <workItem from="1409946303011" duration="2592000" />
+      <workItem from="1409954244512" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2265,11 +2351,15 @@
       <created>1397780791061</created>
       <updated>1397780791061</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Going to start a JavaFX application, switch documentation to markdown (as in writing an e-book).">
+      <created>1409946466005</created>
+      <updated>1409946466005</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281230000" />
+    <option name="totallyTimeSpent" value="283755000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2325,8 +2415,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2349,7 +2439,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Getting Pelican documentation ready." />
     <MESSAGE value="Working on the documentation. Had trouble with Pelican, not going to spend a lot of time on it - I reverted back to straight HTML and will work on getting a static site generator setup when I don't feel like actually working on the Retail stuff - I've wasted enough time on it as it is." />
     <MESSAGE value="Moved the documentation stuff to the DocumentationWeb project." />
     <MESSAGE value="Documentation updates. Created the AddressValidation service module (nothing beyond initial creation yet)." />
@@ -2374,7 +2463,8 @@
     <MESSAGE value="Adding the mapper file." />
     <MESSAGE value="Initial test for postal code parsing passing; needs refactoring to better design." />
     <MESSAGE value="Working on parser." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on parser." />
+    <MESSAGE value="Going to start a JavaFX application, switch documentation to markdown (as in writing an e-book)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Going to start a JavaFX application, switch documentation to markdown (as in writing an e-book)." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2654,13 +2744,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RetailManagement.iml">
@@ -2730,7 +2820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1853">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2741,10 +2830,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.html">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9004329" vertical-offset="141" max-vertical-offset="1173">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.07234043" vertical-offset="0" max-vertical-offset="705">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
