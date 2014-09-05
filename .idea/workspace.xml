@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Going to start a JavaFX application, switch documentation to markdown (as in writing an e-book).">
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Working on markdown.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\initialApplicationJavaFX\basics.html" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
     </list>
     <ignored path="RetailManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,8 +74,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07234043" vertical-offset="0" max-vertical-offset="705">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.89346594" vertical-offset="102" max-vertical-offset="850">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2189,7 +2189,7 @@
       <workItem from="1408838524871" duration="1822000" />
       <workItem from="1408918239322" duration="653000" />
       <workItem from="1409946303011" duration="2592000" />
-      <workItem from="1409954244512" duration="54000" />
+      <workItem from="1409954244512" duration="515000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2355,11 +2355,15 @@
       <created>1409946466005</created>
       <updated>1409946466005</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Working on markdown.">
+      <created>1409954310171</created>
+      <updated>1409954310171</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283755000" />
+    <option name="totallyTimeSpent" value="284216000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2399,6 +2403,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34061697" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2417,7 +2422,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2439,7 +2443,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Working on the documentation. Had trouble with Pelican, not going to spend a lot of time on it - I reverted back to straight HTML and will work on getting a static site generator setup when I don't feel like actually working on the Retail stuff - I've wasted enough time on it as it is." />
     <MESSAGE value="Moved the documentation stuff to the DocumentationWeb project." />
     <MESSAGE value="Documentation updates. Created the AddressValidation service module (nothing beyond initial creation yet)." />
     <MESSAGE value="Checking in new project" />
@@ -2464,7 +2467,8 @@
     <MESSAGE value="Initial test for postal code parsing passing; needs refactoring to better design." />
     <MESSAGE value="Working on parser." />
     <MESSAGE value="Going to start a JavaFX application, switch documentation to markdown (as in writing an e-book)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Going to start a JavaFX application, switch documentation to markdown (as in writing an e-book)." />
+    <MESSAGE value="Working on markdown." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on markdown." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2835,8 +2839,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07234043" vertical-offset="0" max-vertical-offset="705">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.89346594" vertical-offset="102" max-vertical-offset="850">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>

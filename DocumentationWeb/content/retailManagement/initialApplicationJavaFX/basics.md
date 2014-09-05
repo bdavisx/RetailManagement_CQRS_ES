@@ -2,25 +2,43 @@
 
 ## Application Requirements
 
-Inventory of Items for sale
+1. Inventory of Items for sale
 
-Item Editing
-    Add Item (need barcode, name)
-    Add Item Delivery Package
+    1. Item Editing
+        1. Add/Edit Item need:
+            * barcode
+            * name
+            * manufacturer / supplier
+            * categories
+            * dates item is available
+        1. Add/Edit Item Delivery Package
+            * Delivery Package is how it's shipped to store, 
+            * so need number of items in package at a minimum
+            * price of package
+            * dates item is available in package
 
-    Item Pricing (w/ sale date/time ranges)
+    1. Item Pricing 
+        * General Pricing - by
+            * item
+            * supplier
+            * category
+            * can be done different ways
+                * markup from our cost
+                    * how to determine cost? average, last, ?
+                
+        * Create sale on item - or group of items, lots of ways to do this - supplier, category
 
-POS application
-    menu
-        start sale
-        refund
-        etc...
-    start sale
-        take values from bar code to lookup item
-        multiple items until complete sale
-            calcs tax
-            gives total
-            takes payment
+1. POS application
+    1. menu
+        1. start sale
+        1. refund
+        1. etc...
+    1. start sale
+        1. take values from bar code to lookup item
+        1. multiple items until complete sale
+            1. calcs tax
+            1. gives total
+            1. takes payment
 
-Getting the data from: http://www.product-open-data.com/download/ (requires attribution)
+* Getting the data from: http://www.product-open-data.com/download/ (requires attribution) *
 
