@@ -11,7 +11,7 @@
         1. fat client simplifies architecture
         1. fat client makes it harder to scale
         
-    * Going to go with server based on JSON *         
+    * **Going to go with server based on JSON**         
 
 1. Inventory of Items for sale
 
@@ -36,7 +36,7 @@
             * can be done different ways
                 * markup from our cost
                     * how to determine cost? average, last, ?
-                
+
         * Create sale on item - or group of items, lots of ways to do this - supplier, category
 
 1. POS application
