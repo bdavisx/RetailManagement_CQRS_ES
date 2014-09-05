@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
     <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Working on markdown.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\index.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/index.html" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\address-stories.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/address-stories.html" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\index.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/index2.html" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\introduction-to-the-project.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/introduction-to-the-project.html" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\postal-code-database-import.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/postal-code-database-import.html" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\starting-the-project.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/starting-the-project.html" />
+      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\vendor-stories.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/vendor-stories.html" />
     </list>
     <ignored path="RetailManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,38 +80,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="basics.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
+      <file leaf-file-name="introduction-to-the-project.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/introduction-to-the-project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.148148" vertical-offset="119" max-vertical-offset="1037">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            <state vertical-scroll-proportion="-12.230769" vertical-offset="1025" max-vertical-offset="1717">
+              <caret line="79" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="address-stories.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
+      <file leaf-file-name="postal-code-database-import.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6923075" vertical-offset="4017" max-vertical-offset="4709">
-              <caret line="245" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+            <state vertical-scroll-proportion="-24.814816" vertical-offset="299" max-vertical-offset="1071">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="address-stories.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.md">
+      <file leaf-file-name="starting-the-project.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/starting-the-project.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.3846154" vertical-offset="311" max-vertical-offset="1003">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="starting-the-project.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85238785" vertical-offset="2947" max-vertical-offset="3655">
-              <caret line="208" column="116" selection-start-line="208" selection-start-column="116" selection-end-line="208" selection-end-column="116" />
+            <state vertical-scroll-proportion="-7.5555553" vertical-offset="0" max-vertical-offset="306">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vendor-stories.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/vendor-stories.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.230769" vertical-offset="447" max-vertical-offset="1139">
+              <caret line="45" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vendor-stories.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="442">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/index.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21732955" vertical-offset="0" max-vertical-offset="704">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="918">
+              <caret line="32" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="introduction-to-the-project.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-24.333334" vertical-offset="108" max-vertical-offset="884">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postal-code-database-import.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/postal-code-database-import.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.8461537" vertical-offset="1199" max-vertical-offset="1904">
+              <caret line="81" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <folding>
+                <marker date="1409955594764" expanded="true" signature="802:955" placeholder="..." />
+                <marker date="1409955594764" expanded="true" signature="864:923" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1053,12 +1147,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" />
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/AddressText.kt" />
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/PostalCodeText.kt" />
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws/billdavis/services/validation/address/transferobjects/CountryCodeText.kt" />
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws/billdavis/services/validation/address/transferobjects/AddressText.kt" />
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws/billdavis/services/validation/address/transferobjects/PostalCodeText.kt" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/Application.java" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws.billdavis.services.validation.kt" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws.billdavis.validation.ConstraintViolationTO.kt" />
@@ -1104,6 +1192,12 @@
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.html" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/index.md" />
       </list>
     </option>
   </component>
@@ -1285,6 +1379,24 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="oldHTML" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="content" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1400,12 +1512,12 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ws.billdavis.utilities.conversion" />
       <recent name="ws.billdavis.services.validation.address" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ws.billdavis" />
@@ -1427,15 +1539,15 @@
       <recent name="ws.billdavis.retailmanagement.domain.general.location" />
       <recent name="ws.billdavis.retailmanagement.domain.vendor" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="ws.billdavis.services.validation.address" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\source\RetailManagement\DocumentationWeb\oldHTML" />
       <recent name="D:\source\RetailManagement" />
       <recent name="D:\source\RetailManagement\AddressTransferObjects\src\main\kotlin\ws\billdavis\services\validation\address\transferobjects" />
       <recent name="D:\source\RetailManagement\AddressTransferObjects\src\main\kotlin" />
       <recent name="D:\source\RetailManagement\DocumentationWeb\content\downloads" />
-      <recent name="D:\source\RetailManagement\DocumentationWeb\generalDocuments" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ws.billdavis.services.validation.address" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestMethodHandles.methodHandlesToSameObjectShouldBeEqual">
@@ -2212,7 +2324,7 @@
       <workItem from="1408838524871" duration="1822000" />
       <workItem from="1408918239322" duration="653000" />
       <workItem from="1409946303011" duration="2592000" />
-      <workItem from="1409954244512" duration="1097000" />
+      <workItem from="1409954244512" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2394,11 +2506,15 @@
       <created>1409955117704</created>
       <updated>1409955117704</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Working on markdown.">
+      <created>1409955348708</created>
+      <updated>1409955348708</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284798000" />
+    <option name="totallyTimeSpent" value="285102000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2422,7 +2538,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2447,7 +2563,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32326478" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32326478" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57030225" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34318766" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
@@ -2516,76 +2632,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.0.2.RELEASE/7dd3f58486b4cc57ea9c11236d946e87a566ab5f/spring-jdbc-4.0.2.RELEASE-sources.jar!/org/springframework/jdbc/core/RowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51428574" vertical-offset="166" max-vertical-offset="901">
-          <caret line="47" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.2.RELEASE/3717b836710b4c82c2d5f3f32817cb0cfc185317/spring-context-4.0.2.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60136056" vertical-offset="0" max-vertical-offset="735">
-          <caret line="44" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/resources/persistence.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06938776" vertical-offset="0" max-vertical-offset="735">
-          <caret line="3" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValidationSupportLibrary/src/main/java/ws/billdavis/services/validation/ValidationConstraintErrorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="374">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.2.RELEASE/3717b836710b4c82c2d5f3f32817cb0cfc185317/spring-context-4.0.2.RELEASE-sources.jar!/org/springframework/stereotype/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5813953" vertical-offset="0" max-vertical-offset="731">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="986">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.0.2.RELEASE/7dd3f58486b4cc57ea9c11236d946e87a566ab5f/spring-jdbc-4.0.2.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33242133" vertical-offset="10484" max-vertical-offset="18020">
-          <caret line="652" column="10" selection-start-line="652" selection-start-column="10" selection-end-line="652" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.0.2.RELEASE/7dd3f58486b4cc57ea9c11236d946e87a566ab5f/spring-jdbc-4.0.2.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1733" max-vertical-offset="25279">
-          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/PostalCodeText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/CountryCodeText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
@@ -2646,13 +2692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="1904">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2848,13 +2887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8526012" vertical-offset="379" max-vertical-offset="1071">
-          <caret line="57" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -2866,7 +2898,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/address-stories.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.6923075" vertical-offset="4017" max-vertical-offset="4709">
           <caret line="245" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
@@ -2879,8 +2911,125 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85238785" vertical-offset="2947" max-vertical-offset="3655">
+        <state vertical-scroll-proportion="-21.814816" vertical-offset="2947" max-vertical-offset="3655">
           <caret line="208" column="116" selection-start-line="208" selection-start-column="116" selection-end-line="208" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.115385" vertical-offset="226" max-vertical-offset="1071">
+          <caret line="41" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.296296" vertical-offset="0" max-vertical-offset="272">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/introduction-to-the-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.230769" vertical-offset="1025" max-vertical-offset="1717">
+          <caret line="79" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.333334" vertical-offset="108" max-vertical-offset="884">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/postal-code-database-import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8461537" vertical-offset="1199" max-vertical-offset="1904">
+          <caret line="81" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <marker date="1409955594764" expanded="true" signature="802:955" placeholder="..." />
+            <marker date="1409955594764" expanded="true" signature="864:923" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.814816" vertical-offset="299" max-vertical-offset="1071">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/starting-the-project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3846154" vertical-offset="311" max-vertical-offset="1003">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5555553" vertical-offset="0" max-vertical-offset="306">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/vendor-stories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.230769" vertical-offset="447" max-vertical-offset="1139">
+          <caret line="45" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="442">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="918">
+          <caret line="32" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/index.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21732955" vertical-offset="0" max-vertical-offset="704">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
