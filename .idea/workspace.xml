@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
     <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Working on markdown.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RetailManagement.iws" />
@@ -68,14 +68,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="basics.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="basics.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77272725" vertical-offset="119" max-vertical-offset="1037">
+            <state vertical-scroll-proportion="-20.148148" vertical-offset="119" max-vertical-offset="1037">
               <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="address-stories.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.6923075" vertical-offset="4017" max-vertical-offset="4709">
+              <caret line="245" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="address-stories.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.85238785" vertical-offset="2947" max-vertical-offset="3655">
+              <caret line="208" column="116" selection-start-line="208" selection-start-column="116" selection-end-line="208" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -1030,7 +1053,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/test/java/ws/billdavis/services/validation/address/AddressValidationServiceTest.java" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/AddressValidationService.java" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/AddressText.kt" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/PostalCodeText.kt" />
@@ -1081,6 +1103,7 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.html" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.md" />
       </list>
     </option>
   </component>
@@ -2189,7 +2212,7 @@
       <workItem from="1408838524871" duration="1822000" />
       <workItem from="1408918239322" duration="653000" />
       <workItem from="1409946303011" duration="2592000" />
-      <workItem from="1409954244512" duration="867000" />
+      <workItem from="1409954244512" duration="1097000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2367,11 +2390,15 @@
       <created>1409955062224</created>
       <updated>1409955062224</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Working on markdown.">
+      <created>1409955117704</created>
+      <updated>1409955117704</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284568000" />
+    <option name="totallyTimeSpent" value="284798000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2489,13 +2516,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5836735" vertical-offset="472" max-vertical-offset="1275">
-          <caret line="53" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.0.2.RELEASE/7dd3f58486b4cc57ea9c11236d946e87a566ab5f/spring-jdbc-4.0.2.RELEASE-sources.jar!/org/springframework/jdbc/core/RowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51428574" vertical-offset="166" max-vertical-offset="901">
@@ -2633,13 +2653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="1904">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2431" max-vertical-offset="4709">
-          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2847,8 +2860,27 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77272725" vertical-offset="119" max-vertical-offset="1037">
+        <state vertical-scroll-proportion="-20.148148" vertical-offset="119" max-vertical-offset="1037">
           <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6923075" vertical-offset="4017" max-vertical-offset="4709">
+          <caret line="245" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85238785" vertical-offset="2947" max-vertical-offset="3655">
+          <caret line="208" column="116" selection-start-line="208" selection-start-column="116" selection-end-line="208" selection-end-column="116" />
           <folding />
         </state>
       </provider>
