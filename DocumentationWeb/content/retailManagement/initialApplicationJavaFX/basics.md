@@ -2,6 +2,17 @@
 
 ## Application Requirements
 
+1. Architecture
+
+    1. JavaFX Front End
+    1. Should "back end" be server or fat client?
+        1. server based on JSON makes it easier to have other front ends
+        1. server based allows more flexibility on where processing takes place
+        1. fat client simplifies architecture
+        1. fat client makes it harder to scale
+        
+    * Going to go with server based on JSON *         
+
 1. Inventory of Items for sale
 
     1. Item Editing
