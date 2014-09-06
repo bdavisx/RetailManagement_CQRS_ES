@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.0.0.RC4")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.1.6")
     }
 }
 
@@ -16,10 +16,12 @@ ext {
     hamcrestVersion = '1.3'
     hibernateVersion = '4.3.1.Final'
     springVersion = '4.0.6.RELEASE'
-    springBootVersion = '1.1.4.RELEASE'
+    springBootVersion = '1.1.6.RELEASE'
     springSecurityVersion = '3.2.0.RELEASE'
     thymeleafVersion = '2.1.2.RELEASE'
     kotlin_version = '0.7.115'
+    slf4jVersion='1.7.7'
+    logbackVersion='1.0.9'
 }
 
 allprojects {
@@ -47,6 +49,13 @@ subprojects {
     apply plugin: 'java'
 
     dependencies {
+        compile group: "org.axonframework", name: "axon-core", version: axonVersion
+        compile group: "com.google.guava", name: "guava", version: '14.0.1'
+        compile group: "org.reflections", name: "reflections", version: '0.9.9-RC1'
+        compile group: "org.slf4j", name: "slf4j-api", version: slf4jVersion
+        compile group: "ch.qos.logback", name: "logback-classic", version: logbackVersion
+        compile group: "ch.qos.logback", name: "logback-core", version: logbackVersion
+
         testCompile group: 'junit', name: 'junit-dep', version:'4.11'
         testCompile group: 'org.easytesting', name: 'fest-assert', version:'1.4'
         testCompile group: 'org.hamcrest', name: 'hamcrest-core', version: hamcrestVersion
@@ -97,6 +106,7 @@ project( ":ConversionUtilities" ) {
 
 project( ":ProductManagementJavaFX" ) {
     dependencies {
+        compile group: "org.springframework", name: "spring-core", version: springVersion
         compile group: "org.hibernate", name: "hibernate-validator", version: "5.1.0.Final"
     }
 }

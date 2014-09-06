@@ -2,15 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
-    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Working on markdown.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/ws/billdavis/retailmanagement/productmanagement/client/fx/application/ProductManagementApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/ProductManagementJavaFX.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_test_4_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_test_4_0_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java" afterPath="$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java" />
+    <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="ProductManagement Jfx app created.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/ThreadSafeEventService.java.orig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/ThreadSafeEventService.java.rej" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/eventClass.GIF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/aggregate/AbstractAggregateRoot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/eventsourcing/aggregate/AbstractAggregateRootTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/mvvm/guicommands/AbstractCorrelatedGUICommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/events/AbstractDomainEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/aggregate/AbstractEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/AbstractEventServiceEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/AbstractProxySubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/AggregateVersion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/commands/AnnotatedCommandHandlerRegistrar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/commands/AnnotatedCommandHandlerRegistrarTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/AnnotationProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/domain/commands/ApplicationCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/domain/commands/ApplicationCommandHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/events/ApplicationEventHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/BaseProxySubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/CanMemento.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/CleanupEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/domain/commands/Command.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/commands/CommandDistributor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/commands/CommandDistributorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/ContainerEventServiceAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/ContainerEventServiceFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/ContainerEventServiceRegistrar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/ContainerEventServiceSupplier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/DomainEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/storage/DomainEventStorage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/DomainEventVersionComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/EntityEventProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/EventBus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/EventBusAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/exception/EventBusException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/events/EventContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/events/EventContainerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/aggregate/EventProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/EventService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/EventServiceAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/EventServiceEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/EventServiceExistsException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/EventServiceLocator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/EventSourcingException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/EventSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/EventSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/EventTopicPatternSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/EventTopicSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/EventTopicSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/mvvm/guicommands/GUICommandHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__guava_14_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javassist_3_16_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__logback_classic_1_0_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__logback_core_1_0_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__reflections_0_9_9_RC1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/registrars/InstantiatedObjectAnnotatedStrategyBasedRegistrar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/registrars/InstantiatedObjectAnnotatedStrategyBasedRegistrarTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/Memento.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/mvvm/eventstore/MemoryEventStoreWithFileSaveTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/commands/NoHandlerForCommandException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/ObjectEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/Prioritized.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/PrioritizedEventSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/PrioritizedEventTopicSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/ProxySubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/ProxyTopicPatternSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/ProxyTopicSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/PublicationStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/PublicationStatusTracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/ReferenceStrength.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/RegisterChildEntities.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/RuntimeTopicEventSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/RuntimeTopicPatternEventSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/storage/SnapShot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/storage/SnapShotStorage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/mvvm/eventstore/StubDomainEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/mvvm/eventstore/StubSnapshotDomainEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/SubscriberTimingEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/SwingEventService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/TestClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/ThreadSafeEventService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/generics/TypeReference.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/commands/UnableToInvokeAutoRegisteredCommandHandlerException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/registrars/UnableToInvokeAutoRegisteredMethodException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/UnregisteredDomainEventException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/UseTheClassOfTheAnnotatedMethodsParameter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/VersionProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/VetoEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/VetoRuntimeTopicPatternSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/VetoRuntimeTopicSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/VetoSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/VetoTopicEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/VetoTopicPatternSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/VetoTopicSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/annotation/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/exception/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventbus/generics/package.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressTransferObjects/AddressTransferObjects.iml" afterPath="$PROJECT_DIR$/AddressTransferObjects/AddressTransferObjects.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressValidationService/AddressValidationService.iml" afterPath="$PROJECT_DIR$/AddressValidationService/AddressValidationService.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversionUtilities/ConversionUtilities.iml" afterPath="$PROJECT_DIR$/ConversionUtilities/ConversionUtilities.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ws_billdavis_AddressValidationService___AddressValidationService_0_1_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ws_billdavis_AddressValidationService___AddressValidationService_0_1_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ws_billdavis_AddressValidationService___AddressValidationService_0_1_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ws_billdavis_AddressValidationService___AddressValidationService_0_1_war__exploded_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProductManagementJavaFX/ProductManagementJavaFX.iml" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/ProductManagementJavaFX.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ValidationSupportLibrary/ValidationSupportLibrary.iml" afterPath="$PROJECT_DIR$/ValidationSupportLibrary/ValidationSupportLibrary.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RetailManagement.iws" />
@@ -81,8 +180,38 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="1037">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1122">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventContainer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/events/EventContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractCorrelatedGUICommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/mvvm/guicommands/AbstractCorrelatedGUICommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractDomainEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/events/AbstractDomainEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -91,22 +220,72 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1955">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductManagementApplication.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/ws/billdavis/retailmanagement/productmanagement/client/fx/application/ProductManagementApplication.java">
+      <file leaf-file-name="InstantiatedObjectAnnotatedStrategyBasedRegistrarTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/registrars/InstantiatedObjectAnnotatedStrategyBasedRegistrarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5116279" vertical-offset="0" max-vertical-offset="731">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="1785">
+              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#2538#2539#0" expanded="true" />
+                <element signature="e#2594#2595#0" expanded="true" />
+                <element signature="e#2724#2725#0" expanded="true" />
+                <element signature="e#2780#2781#0" expanded="true" />
+                <element signature="e#3315#3316#0" expanded="true" />
+                <element signature="e#3366#3367#0" expanded="true" />
+                <element signature="e#3447#3448#0" expanded="true" />
+                <element signature="e#3498#3499#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractEntity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/aggregate/AbstractEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33242133" vertical-offset="63" max-vertical-offset="1105">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatedCommandHandlerRegistrarTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/commands/AnnotatedCommandHandlerRegistrarTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1955">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.6.RELEASE/778949f894ac1ee2d42a8f074a7477540f4d04a/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="1666">
+              <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotatedCommandHandlerRegistrar.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/commands/AnnotatedCommandHandlerRegistrar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -816,7 +995,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/../MyWorkflowsGradle" value="1392255958350" />
-        <entry key="$PROJECT_DIR$" value="2818645438628" />
+        <entry key="$PROJECT_DIR$" value="2819995117846" />
         <entry key="$PROJECT_DIR$/../github/spring-framework" value="1390410616799" />
       </map>
     </option>
@@ -1177,12 +1356,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws.billdavis.services.validation.kt" />
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws.billdavis.validation.ConstraintViolationTO.kt" />
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws.billdavis.Test.kt" />
-        <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/7d49b53caed9bd81d172807c3e096d24f3c57090/validation-api-1.1.0.Final-sources.jar!/javax/validation/ConstraintViolation.java" />
-        <option value="$PROJECT_DIR$/AddressTransferObjects/build.gradle" />
-        <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/address/transferobjects/AddressText.java" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/java/ws/billdavis/services/validation/ValidationConstraintError.java" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationController.java" />
@@ -1216,7 +1389,6 @@
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/webapp/application/application.js" />
         <option value="$PROJECT_DIR$/ValidationSupportLibrary/ValidationSupportLibrary.iml" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.html" />
-        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.md" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.md" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.md" />
@@ -1226,8 +1398,15 @@
         <option value="$PROJECT_DIR$/DocumentationWeb/content/index.md" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/ws/billdavis/retailmanagement/productmanagement/client/fx/application/ProductManagementApplication.java" />
+        <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
+        <option value="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/loosefx/commands/NoHandlerForCommandException.java" />
+        <option value="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/loosefx/commands/AnnotatedCommandHandlerRegistrar.java" />
+        <option value="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/events/EventContainer.java" />
+        <option value="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/commands/AnnotatedCommandHandlerRegistrar.java" />
+        <option value="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/commands/AnnotatedCommandHandlerRegistrarTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/registrars/InstantiatedObjectAnnotatedStrategyBasedRegistrarTest.java" />
       </list>
     </option>
   </component>
@@ -1412,6 +1591,66 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductManagementJavaFX" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="registrars" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductManagementJavaFX" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1460,8 +1699,64 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductManagementJavaFX" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guicommands" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetailManagement" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductManagementJavaFX" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1479,7 +1774,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -1487,7 +1782,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistory" value="@Ben" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="Markdown" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1540,11 +1835,11 @@
       <recent name="ws.billdavis.retailmanagement" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\source\RetailManagement\ProductManagementJavaFX\src\main\java" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\webapp\application" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\resources" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\test\java" />
       <recent name="D:\source\RetailManagement\RetailManagementApp\src\main\java" />
-      <recent name="D:\source\RetailManagement\DocumentationWeb\retailManagement" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="ws.billdavis.retailmanagement.domain.general.location" />
@@ -2358,7 +2653,7 @@
       <workItem from="1408838524871" duration="1822000" />
       <workItem from="1408918239322" duration="653000" />
       <workItem from="1409946303011" duration="2592000" />
-      <workItem from="1409954244512" duration="6839000" />
+      <workItem from="1409954244512" duration="13666000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2548,11 +2843,15 @@
       <created>1409955652313</created>
       <updated>1409955652313</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="ProductManagement Jfx app created.">
+      <created>1409972103839</created>
+      <updated>1409972103839</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290540000" />
+    <option name="totallyTimeSpent" value="297367000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2576,7 +2875,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2601,7 +2900,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32326478" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32326478" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57030225" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34318766" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
@@ -2632,7 +2931,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Moved the documentation stuff to the DocumentationWeb project." />
     <MESSAGE value="Documentation updates. Created the AddressValidation service module (nothing beyond initial creation yet)." />
     <MESSAGE value="Checking in new project" />
     <MESSAGE value="Going to switch the service TO's to Kotlin since it's so much simpler to deal with &quot;properties&quot;." />
@@ -2657,7 +2955,8 @@
     <MESSAGE value="Working on parser." />
     <MESSAGE value="Going to start a JavaFX application, switch documentation to markdown (as in writing an e-book)." />
     <MESSAGE value="Working on markdown." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on markdown." />
+    <MESSAGE value="ProductManagement Jfx app created." />
+    <option name="LAST_COMMIT_MESSAGE" value="ProductManagement Jfx app created." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2670,69 +2969,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://db-console:/15457a01/955aa2be-8591-4245-b5fe-c83dfbd8a8e9/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1724138" vertical-offset="0" max-vertical-offset="204">
-          <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/TypeSafeMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27906978" vertical-offset="0" max-vertical-offset="1479">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.2.RELEASE/ab6bec9cba76d13f616455da792056946d2928fd/spring-core-4.0.2.RELEASE-sources.jar!/org/springframework/util/ObjectUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33286908" vertical-offset="3484" max-vertical-offset="14535">
-          <caret line="238" column="26" selection-start-line="238" selection-start-column="26" selection-end-line="238" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/Description.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3255814" vertical-offset="0" max-vertical-offset="1377">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/test/java/ws/billdavis/services/validation/address/ValidationContraintErrorAllFieldsMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ValidationSupportLibrary/src/main/java/ws/billdavis/services/validation/ValidationConstraintError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4735376" vertical-offset="0" max-vertical-offset="718">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RetailManagementApp/src/main/db/create.ddl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6976744" vertical-offset="0" max-vertical-offset="731">
-          <caret line="30" column="1" selection-start-line="29" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/main/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConversionUtilities/src/test/java/ws/billdavis/utilities/conversion/ConvertUnicodeOrgPostalCodeRegExFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/7.0.47/9a82fa99b57ad280d1e9c93d3c40446a1cd0cec3/tomcat-embed-core-7.0.47-sources.jar!/javax/servlet/http/HttpServletResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3488372" vertical-offset="0" max-vertical-offset="9945">
@@ -3049,34 +3285,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1955">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/ws/billdavis/retailmanagement/productmanagement/client/fx/application/ProductManagementApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5116279" vertical-offset="0" max-vertical-offset="731">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#815#816#0" expanded="true" />
             <element signature="e#843#844#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/events/AbstractDomainEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/events/EventContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/mvvm/guicommands/AbstractCorrelatedGUICommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ide/jdk1.8.0_u20/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33242133" vertical-offset="1984" max-vertical-offset="9826">
+          <caret line="169" column="20" selection-start-line="169" selection-start-column="20" selection-end-line="169" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/commands/AnnotatedCommandHandlerRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.6.RELEASE/778949f894ac1ee2d42a8f074a7477540f4d04a/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="1666">
+          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/commands/AnnotatedCommandHandlerRegistrarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1955">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/test/java/org/loosefx/registrars/InstantiatedObjectAnnotatedStrategyBasedRegistrarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="1785">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2538#2539#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#2780#2781#0" expanded="true" />
+            <element signature="e#3315#3316#0" expanded="true" />
+            <element signature="e#3366#3367#0" expanded="true" />
+            <element signature="e#3447#3448#0" expanded="true" />
+            <element signature="e#3498#3499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/org/loosefx/eventsourcing/aggregate/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33242133" vertical-offset="63" max-vertical-offset="1105">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

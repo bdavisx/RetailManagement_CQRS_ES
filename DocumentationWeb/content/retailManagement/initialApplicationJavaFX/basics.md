@@ -11,7 +11,12 @@
         1. fat client simplifies architecture
         1. fat client makes it harder to scale
         
-    * **Going to go with server based on JSON**         
+    * **Going to go with server based on JSON**
+             
+1. Startup
+    1. Throw Up Splash Screen
+        Needs to show progress...
+    1. Spring configuration
 
 1. Inventory of Items for sale
 
