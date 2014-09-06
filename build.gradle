@@ -95,6 +95,12 @@ project( ":ConversionUtilities" ) {
 
 }
 
+project( ":ProductManagementJavaFX" ) {
+    dependencies {
+        compile group: "org.hibernate", name: "hibernate-validator", version: "5.1.0.Final"
+    }
+}
+
 project( ":ValidationSupportLibrary" ) {
     dependencies {
         compile group: "org.hibernate", name: "hibernate-validator", version: "5.1.0.Final"

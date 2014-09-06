@@ -14,7 +14,7 @@ public class TestMethodHandles {
 
     @Test
     public void methodHandlesToSameObjectShouldBeEqual() throws Throwable {
-        VoidVoid v1 = LambdaMetafactory this::setUp;
+        VoidVoid v1 = this::setUp;
         VoidVoid v2 = this::setUp;
         assertEquals( v1, v2 );
     }

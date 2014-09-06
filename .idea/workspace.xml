@@ -3,20 +3,15 @@
   <component name="ChangeListManager">
     <list id="933ceb5f-85a3-451a-9151-cf093929902f" name="Default" comment="" />
     <list default="true" id="adc18b2f-b4ff-46d7-93e9-3e7666b6574a" name="RevertingKotlinChange" comment="Working on markdown.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/ws/billdavis/retailmanagement/productmanagement/client/fx/application/ProductManagementApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductManagementJavaFX/ProductManagementJavaFX.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_test_4_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spring_test_4_0_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java" afterPath="$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\index.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/index.html" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\address-stories.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/address-stories.html" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\index.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/index2.html" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\introduction-to-the-project.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/introduction-to-the-project.html" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\postal-code-database-import.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/postal-code-database-import.html" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\starting-the-project.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/starting-the-project.html" />
-      <change type="MOVED" beforePath="D:\source\RetailManagement\DocumentationWeb\content\retailManagement\vendor-stories.html" afterPath="$PROJECT_DIR$/DocumentationWeb/oldHTML/vendor-stories.html" />
     </list>
     <ignored path="RetailManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,119 +75,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="introduction-to-the-project.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/introduction-to-the-project.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.230769" vertical-offset="1025" max-vertical-offset="1717">
-              <caret line="79" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postal-code-database-import.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/postal-code-database-import.md">
+      <file leaf-file-name="basics.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.814816" vertical-offset="299" max-vertical-offset="1071">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="1037">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="starting-the-project.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/starting-the-project.html">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3846154" vertical-offset="311" max-vertical-offset="1003">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1955">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="starting-the-project.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
+      <file leaf-file-name="ProductManagementApplication.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/ws/billdavis/retailmanagement/productmanagement/client/fx/application/ProductManagementApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5555553" vertical-offset="0" max-vertical-offset="306">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vendor-stories.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/vendor-stories.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.230769" vertical-offset="447" max-vertical-offset="1139">
-              <caret line="45" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vendor-stories.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="442">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/index.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21732955" vertical-offset="0" max-vertical-offset="704">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="918">
-              <caret line="32" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="introduction-to-the-project.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/introduction-to-the-project.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.333334" vertical-offset="108" max-vertical-offset="884">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postal-code-database-import.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/postal-code-database-import.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8461537" vertical-offset="1199" max-vertical-offset="1904">
-              <caret line="81" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5116279" vertical-offset="0" max-vertical-offset="731">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
-                <marker date="1409955594764" expanded="true" signature="802:955" placeholder="..." />
-                <marker date="1409955594764" expanded="true" signature="864:923" placeholder="..." />
+                <element signature="imports" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -267,6 +181,10 @@
                 <option name="path" value="$PROJECT_DIR$/AddressValidationService" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
+                <option name="name" value=":ProductManagementJavaFX" />
+                <option name="path" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
                 <option name="name" value=":ValidationSupportLibrary" />
                 <option name="path" value="$PROJECT_DIR$/ValidationSupportLibrary" />
               </ExternalProjectPojo>
@@ -299,6 +217,11 @@
                 <option name="description" value="Compiles Java source 'test:java'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads all artifacts belonging to configuration ':ProductManagementJavaFX:archives'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uploadArchives" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uploads all artifacts belonging to configuration ':ValidationSupportLibrary:archives'" />
@@ -716,6 +639,92 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/ProductManagementJavaFX">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads all artifacts belonging to configuration ':ProductManagementJavaFX:archives'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ProductManagementJavaFX" />
+                <option name="name" value="uploadArchives" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/ValidationSupportLibrary">
           <value>
             <list>
@@ -807,7 +816,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/../MyWorkflowsGradle" value="1392255958350" />
-        <entry key="$PROJECT_DIR$" value="2805407021421" />
+        <entry key="$PROJECT_DIR$" value="2818645438628" />
         <entry key="$PROJECT_DIR$/../github/spring-framework" value="1390410616799" />
       </map>
     </option>
@@ -920,6 +929,27 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/ConversionUtilities/build.gradle" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/ProductManagementJavaFX">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.0.0.RC4/6c69da0b1c9eccda38380918d4a4b1cfed9d5f38/spring-boot-gradle-plugin-1.0.0.RC4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.0.0.RC4/2578a326e630d47637f7460eca93ea38883e3928/spring-boot-gradle-plugin-1.0.0.RC4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.2.RELEASE/ab6bec9cba76d13f616455da792056946d2928fd/spring-core-4.0.2.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.2.RELEASE/75f738808c84fe3365e8e60edf3ad713667a5be1/spring-core-4.0.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.0.0.RC4/78009d79631406633d976cf1b36f47a7a24ac2a/spring-boot-loader-tools-1.0.0.RC4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.0.0.RC4/9c3c5bfcd9096242cb78907719a8f02ccef4360f/spring-boot-loader-tools-1.0.0.RC4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-dependency-tools/1.0.0.RC4/59fe3473f73c4936096f346aea81ceada43dd839/spring-boot-dependency-tools-1.0.0.RC4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-dependency-tools/1.0.0.RC4/ce4d52bc6e601716d495ea5551648862c0ce76a5/spring-boot-dependency-tools-1.0.0.RC4.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/ProductManagementJavaFX" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1147,7 +1177,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/Application.java" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws.billdavis.services.validation.kt" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws.billdavis.validation.ConstraintViolationTO.kt" />
         <option value="$PROJECT_DIR$/AddressTransferObjects/src/main/kotlin/ws.billdavis.Test.kt" />
@@ -1168,7 +1197,6 @@
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/creating-components-services.html" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/test/java/ws/billdavis/services/validation/address/ValidationContraintAllFieldsErrorMatcher.java" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/test/java/ws/billdavis/services/validation/address/ValidationContraintErrorAllFieldsMatcher.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/AddressValidationService/src/test/java/ws/billdavis/services/validation/address/AddressValidationServiceTest.java" />
         <option value="$PROJECT_DIR$/ValidationSupportLibrary/src/main/java/ws/billdavis/services/validation/ValidationConstraintError.java" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/index.html" />
@@ -1187,8 +1215,6 @@
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/RetailManagementApp/src/main/webapp/application/application.js" />
         <option value="$PROJECT_DIR$/ValidationSupportLibrary/ValidationSupportLibrary.iml" />
-        <option value="$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.html" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/address-stories.md" />
@@ -1198,6 +1224,10 @@
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/starting-the-project.md" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/retailManagement/vendor-stories.md" />
         <option value="$PROJECT_DIR$/DocumentationWeb/content/index.md" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/ws/billdavis/retailmanagement/productmanagement/client/fx/application/ProductManagementApplication.java" />
       </list>
     </option>
   </component>
@@ -1327,7 +1357,7 @@
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
-      <abbreviatePackageNames />
+      <abbreviatePackageNames ProjectPane="true" />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
@@ -1361,7 +1391,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemId" value="ProductManagementJavaFX" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1375,29 +1405,11 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemId" value="ProductManagementJavaFX" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="oldHTML" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RetailManagement" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocumentationWeb" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1411,15 +1423,15 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemId" value="ProductManagementJavaFX" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="retailManagement" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1433,19 +1445,23 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DocumentationWeb" />
+              <option name="myItemId" value="ProductManagementJavaFX" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="retailManagement" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="initialApplicationJavaFX" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1550,7 +1566,26 @@
       <recent name="ws.billdavis.services.validation.address" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestMethodHandles.methodHandlesToSameObjectShouldBeEqual">
+  <component name="RunManager" selected="Application.Product Management Jfx">
+    <configuration default="false" name="RetailManagement:AddressValidationService [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="D:\source\RetailManagement\AddressValidationService" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="AddressValidationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1560,14 +1595,14 @@
       </extension>
       <module name="AddressValidationService" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="ws.billdavis.services.validation.address" />
       <option name="MAIN_CLASS_NAME" value="ws.billdavis.services.validation.address.AddressValidationServiceTest" />
-      <option name="METHOD_NAME" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -1641,25 +1676,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RetailManagement:AddressValidationService [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="externalProjectPath" value="D:\source\RetailManagement\AddressValidationService" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="TestMethodHandles.methodHandlesToSameObjectShouldBeEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1669,14 +1685,14 @@
       </extension>
       <module name="AddressValidationService" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestMethodHandles" />
       <option name="METHOD_NAME" value="methodHandlesToSameObjectShouldBeEqual" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -2074,6 +2090,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="Product Management Jfx" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ws.billdavis.retailmanagement.productmanagement.client.fx.application.ProductManagementApplication" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProductManagementJavaFX" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="Tomcat Main" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.50" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
@@ -2226,15 +2259,16 @@
         </option>
       </method>
     </configuration>
-    <list size="8">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Application.Convert allcountries to SQL" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat Main" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.RetailManagementApp" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Product Management Jfx" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.RetailManagement:AddressValidationService [build]" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.AddressValidationServiceTest" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.AddressValidationServiceTest.itShouldReturnErrorsForInvalidUS5DigitCode" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.PostalCodeRegExParserTest.itShouldFindTheCountry" />
-      <item index="6" class="java.lang.String" itemvalue="Gradle.RetailManagement:AddressValidationService [build]" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.TestMethodHandles.methodHandlesToSameObjectShouldBeEqual" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TestMethodHandles.methodHandlesToSameObjectShouldBeEqual" />
+      <item index="7" class="java.lang.String" itemvalue="Tomcat Server.Tomcat Main" />
+      <item index="8" class="java.lang.String" itemvalue="Tomcat Server.RetailManagementApp" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -2324,7 +2358,7 @@
       <workItem from="1408838524871" duration="1822000" />
       <workItem from="1408918239322" duration="653000" />
       <workItem from="1409946303011" duration="2592000" />
-      <workItem from="1409954244512" duration="1401000" />
+      <workItem from="1409954244512" duration="6839000" />
     </task>
     <task id="LOCAL-00001" summary="Working on vendor stuff right now.">
       <created>1392784695516</created>
@@ -2510,11 +2544,15 @@
       <created>1409955348708</created>
       <updated>1409955348708</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Working on markdown.">
+      <created>1409955652313</created>
+      <updated>1409955652313</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285102000" />
+    <option name="totallyTimeSpent" value="290540000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -2538,7 +2576,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2563,7 +2601,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32326478" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32326478" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57030225" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34318766" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
@@ -2632,13 +2670,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://db-console:/15457a01/955aa2be-8591-4245-b5fe-c83dfbd8a8e9/">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1724138" vertical-offset="0" max-vertical-offset="204">
@@ -2838,13 +2869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="731">
-          <caret line="4" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AddressValidationService/src/main/java/ws/billdavis/services/validation/address/AddressValidationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41860464" vertical-offset="0" max-vertical-offset="731">
@@ -2870,31 +2894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.82079345" vertical-offset="3922" max-vertical-offset="7769">
           <caret line="290" column="27" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37209302" vertical-offset="0" max-vertical-offset="731">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1853">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.148148" vertical-offset="119" max-vertical-offset="1037">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2949,7 +2948,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.333334" vertical-offset="108" max-vertical-offset="884">
+        <state vertical-scroll-proportion="0.95079595" vertical-offset="108" max-vertical-offset="884">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
@@ -2957,11 +2956,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/postal-code-database-import.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8461537" vertical-offset="1199" max-vertical-offset="1904">
+        <state vertical-scroll-proportion="0.25722542" vertical-offset="1199" max-vertical-offset="1904">
           <caret line="81" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
-            <marker date="1409955594764" expanded="true" signature="802:955" placeholder="..." />
-            <marker date="1409955594764" expanded="true" signature="864:923" placeholder="..." />
+            <marker date="1409955594764" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409955594764" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -3017,7 +3016,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DocumentationWeb/oldHTML/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="918">
+        <state vertical-scroll-proportion="0.78612715" vertical-offset="0" max-vertical-offset="918">
           <caret line="32" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
@@ -3031,6 +3030,53 @@
         <state vertical-scroll-proportion="0.21732955" vertical-offset="0" max-vertical-offset="704">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddressValidationService/src/test/java/test/TestMethodHandles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25581396" vertical-offset="0" max-vertical-offset="731">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="731">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentationWeb/content/retailManagement/initialApplicationJavaFX/basics.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1955">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductManagementJavaFX/src/main/java/ws/billdavis/retailmanagement/productmanagement/client/fx/application/ProductManagementApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5116279" vertical-offset="0" max-vertical-offset="731">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

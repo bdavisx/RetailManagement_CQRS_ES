@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/AddressTransferObjects" />
             <option value="$PROJECT_DIR$/AddressValidationService" />
             <option value="$PROJECT_DIR$/ConversionUtilities" />
+            <option value="$PROJECT_DIR$/ProductManagementJavaFX" />
             <option value="$PROJECT_DIR$/ValidationSupportLibrary" />
           </set>
         </option>
